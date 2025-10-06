@@ -6,7 +6,7 @@ Comprehensive guide for the enhanced Arkime setup, live traffic capture, and PCA
 
 ## 🎯 Overview
 
-BlackPerl_Onyx_ShieldSOC now includes advanced Arkime capabilities with live traffic capture, real-time monitoring, and flexible PCAP generation. These enhancements provide Blue Teams with powerful network analysis tools that integrate seamlessly with the platform.
+BlackPerl Onyx Shield now includes advanced Arkime capabilities with live traffic capture, real-time monitoring, and flexible PCAP generation. These enhancements provide Blue Teams with powerful network analysis tools that integrate seamlessly with the platform.
 
 ---
 
