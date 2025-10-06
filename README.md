@@ -44,7 +44,7 @@ This software is provided "AS IS" for educational purposes. No warranty or guara
 
 **BlackPerl_Onyx_Shield** is an open-source, all-in-one cybersecurity training platform that provides hands-on experience with industry-standard security tools. Built specifically for educational purposes, it allows students, security professionals, and enthusiasts to learn SOC operations, threat hunting, incident response, and security automation in a safe, isolated environment.
 
-**🌐 Website**: [https://blackperldfir.com](https://blackperldfir.com)
+**🌐 Website**: [https://blackperldfir.com]
 **📖 Documentation**: Available in this repository  
 **🎓 Purpose**: Educational and training use  
 **📜 License**: MIT (Open Source)  
