@@ -40,7 +40,7 @@ This software is provided "AS IS" for educational purposes. No warranty or guara
 
 ---
 
-## 🎯 About BlackPerl_Onyx_Shield
+## 🎯 About BlackPerlOnyxShield
 
 **BlackPerl Onyx Shield** is an open-source, all-in-one cybersecurity training platform that provides hands-on experience with industry-standard security tools. Built specifically for educational purposes, it allows students, security professionals, and enthusiasts to learn SOC operations, threat hunting, incident response, and security automation in a safe, isolated environment.
 
@@ -58,7 +58,7 @@ This software is provided "AS IS" for educational purposes. No warranty or guara
 
 BlackPerl Onyx Shield transforms Blue Team cybersecurity tool deployment into a **like one-command solution**. Built with Docker Compose and featuring a beautiful web portal, it provides enterprise-grade security tool access in minutes, not days - perfect for learning and practicing security operations.
 
-### 🌟 Why BlackPerl_Onyx_Shield for Learning?
+### 🌟 Why BlackPerl Onyx Shield for Learning?
 
 - **🚀 Instant Lab Deployment**: Complete SOC training environment in about 30 minutes
 - **🎓 Education Focused**: Pre-configured with sample data for hands-on learning
@@ -151,12 +151,12 @@ BlackPerl Onyx Shield transforms Blue Team cybersecurity tool deployment into a 
 
 ### ⚡ **Simple Installation**
 
-**Complete BlackPerl_Onyx_Shield installation in few commands:**
+**Complete BlackPerl Onyx Shield installation in few commands:**
 
 ```bash
-# Clone and install BlackPerl_Onyx_Shield 
-git clone https://github.com/Enigma-Watch/BlackPerl_Onyx_Shield.git
-cd BlackPerl_Onyx_Shield
+# Clone and install BlackPerl Onyx Shield 
+git clone https://github.com/Enigma-Watch/BlackPerl-Onyx-Shield.git
+cd BlackPerl-Onyx-Shield
 chmod +x blackperl_onyx_shield_install.sh
 ./blackperl_onyx_shield_install.sh
 ```
