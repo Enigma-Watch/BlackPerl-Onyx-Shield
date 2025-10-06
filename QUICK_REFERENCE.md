@@ -1,4 +1,4 @@
-# 🚀 CyberBlueSOC Quick Reference Guide
+# 🚀 BlackPerl_Onyx_ShieldSOC Quick Reference Guide
 
 # 🚨 **LAB ENVIRONMENT ONLY** 🚨
 **⚠️ For educational and testing purposes only - NOT for production use ⚠️**
@@ -18,7 +18,7 @@
 
 | Tool | URL | Credentials | Status | Purpose |
 |------|-----|-------------|--------|---------|
-| **CyberBlue Portal** | `https://YOUR_IP:5443` | admin/cyberblue123 | ✅ HTTPS Auth | Central Management |
+| **BlackPerl_Onyx_Shield Portal** | `https://YOUR_IP:5443` | admin/cyberblue123 | ✅ HTTPS Auth | Central Management |
 | **Velociraptor** | `https://YOUR_IP:7000` | admin/cyberblue | ✅ HTTPS | Endpoint Forensics |
 | **Wazuh** | `https://YOUR_IP:7001` | admin/SecretPassword | ✅ HTTPS | SIEM Dashboard |
 | **Shuffle** | `https://YOUR_IP:7002` | admin/password | ✅ HTTPS | Security Automation |

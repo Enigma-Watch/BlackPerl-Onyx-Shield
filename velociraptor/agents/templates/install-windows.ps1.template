@@ -1,4 +1,4 @@
-# CyberBlue Velociraptor Agent Installation Script for Windows
+# BlackPerl_Onyx_Shield Velociraptor Agent Installation Script for Windows
 # Generated for server: {{SERVER_IP}}
 # This script must be run as Administrator
 #
@@ -13,7 +13,7 @@
 $ErrorActionPreference = "Stop"
 
 Write-Host "========================================" -ForegroundColor Cyan
-Write-Host "CyberBlue Velociraptor Agent Installer" -ForegroundColor Cyan
+Write-Host "BlackPerl_Onyx_Shield Velociraptor Agent Installer" -ForegroundColor Cyan
 Write-Host "Server: {{SERVER_IP}}:8000" -ForegroundColor Cyan
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""

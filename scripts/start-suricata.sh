@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Dynamic Suricata Startup Script for CyberBlueSOC
+# Dynamic Suricata Startup Script for BlackPerl_Onyx_ShieldSOC
 # Automatically detects network interface and starts Suricata
 
 echo "🚀 Starting Suricata with dynamic interface detection..."
@@ -18,7 +18,7 @@ fi
 echo "✅ Detected primary interface: $DEFAULT_INTERFACE"
 
 # Update environment variable
-ENV_FILE="/home/ubuntu/CyberBlueSOC/.env"
+ENV_FILE="/home/ubuntu/BlackPerl_Onyx_ShieldSOC/.env"
 if [ -f "$ENV_FILE" ]; then
     echo "📝 Updating SURICATA_INT in .env file..."
     sed -i "s/^SURICATA_INT=.*/SURICATA_INT=$DEFAULT_INTERFACE/" "$ENV_FILE"
@@ -27,16 +27,16 @@ fi
 
 # Stop existing Suricata container if running
 echo "🔄 Stopping existing Suricata container..."
-docker-compose -f /home/ubuntu/CyberBlueSOC/docker-compose.yml stop suricata 2>/dev/null
+docker-compose -f /home/ubuntu/BlackPerl_Onyx_ShieldSOC/docker-compose.yml stop suricata 2>/dev/null
 
 # Start Suricata with the correct interface
 echo "🌐 Starting Suricata on interface $DEFAULT_INTERFACE..."
-docker-compose -f /home/ubuntu/CyberBlueSOC/docker-compose.yml up -d suricata
+docker-compose -f /home/ubuntu/BlackPerl_Onyx_ShieldSOC/docker-compose.yml up -d suricata
 
 # Wait a moment and check status
 sleep 5
 echo "📊 Checking Suricata status..."
-docker-compose -f /home/ubuntu/CyberBlueSOC/docker-compose.yml ps suricata
+docker-compose -f /home/ubuntu/BlackPerl_Onyx_ShieldSOC/docker-compose.yml ps suricata
 
 echo "✅ Suricata startup complete!"
 echo "📁 Logs will be available in: ./suricata/logs/"

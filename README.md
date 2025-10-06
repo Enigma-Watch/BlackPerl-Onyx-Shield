@@ -1,17 +1,17 @@
-# 🛡️ CyberBlueSOC Platform
+# 🛡️ BlackPerl_Onyx_ShieldSOC Platform
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/Version-1.0--beta-orange.svg)](https://github.com/CyberBlue0/CyberBlue/releases)
+[![Version](https://img.shields.io/badge/Version-1.0--beta-orange.svg)](https://github.com/BlackPerl_Onyx_Shield0/BlackPerl_Onyx_Shield/releases)
 [![Docker](https://img.shields.io/badge/Docker-20.10+-blue.svg)](https://www.docker.com/)
 [![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2.0+-blue.svg)](https://docs.docker.com/compose/)
 [![Website](https://img.shields.io/badge/Website-cyberblue.co-blue.svg)](https://cyberblue.co)
-[![For](https://img.shields.io/badge/Purpose-EDUCATION%20ONLY-red.svg)](https://github.com/CyberBlue0/CyberBlue#-important-security-notice)
+[![For](https://img.shields.io/badge/Purpose-EDUCATION%20ONLY-red.svg)](https://github.com/BlackPerl_Onyx_Shield0/BlackPerl_Onyx_Shield#-important-security-notice)
 
 # ⚠️ **EDUCATIONAL & TESTING ENVIRONMENT ONLY** ⚠️
 
 > **🎓 Learning & Training Platform** - Deploy 15+ integrated security tools for cybersecurity education and testing
 
-**CyberBlue** is a comprehensive, containerized cybersecurity **LEARNING PLATFORM** that brings together industry-leading open-source tools for **SIEM**, **DFIR**, **CTI**, **SOAR**, and **Network Analysis**. 
+**BlackPerl_Onyx_Shield** is a comprehensive, containerized cybersecurity **LEARNING PLATFORM** that brings together industry-leading open-source tools for **SIEM**, **DFIR**, **CTI**, **SOAR**, and **Network Analysis**. 
 
 ## 🚨 **IMPORTANT SECURITY NOTICE**
 
@@ -40,9 +40,9 @@ This software is provided "AS IS" for educational purposes. No warranty or guara
 
 ---
 
-## 🎯 About CyberBlue
+## 🎯 About BlackPerl_Onyx_Shield
 
-**CyberBlue** is an open-source, all-in-one cybersecurity training platform that provides hands-on experience with industry-standard security tools. Built specifically for educational purposes, it allows students, security professionals, and enthusiasts to learn SOC operations, threat hunting, incident response, and security automation in a safe, isolated environment.
+**BlackPerl_Onyx_Shield** is an open-source, all-in-one cybersecurity training platform that provides hands-on experience with industry-standard security tools. Built specifically for educational purposes, it allows students, security professionals, and enthusiasts to learn SOC operations, threat hunting, incident response, and security automation in a safe, isolated environment.
 
 **🌐 Website-NotUpYet**: [https://cyberblue.co](https://cyberblue.co)  
 **📖 Documentation**: Available in this repository  
@@ -52,9 +52,9 @@ This software is provided "AS IS" for educational purposes. No warranty or guara
 
 ### **What It Does:**
 
-CyberBlue transforms Blue Team cybersecurity tool deployment into a **like one-command solution**. Built with Docker Compose and featuring a beautiful web portal, it provides enterprise-grade security tool access in minutes, not days - perfect for learning and practicing security operations.
+BlackPerl_Onyx_Shield transforms Blue Team cybersecurity tool deployment into a **like one-command solution**. Built with Docker Compose and featuring a beautiful web portal, it provides enterprise-grade security tool access in minutes, not days - perfect for learning and practicing security operations.
 
-### 🌟 Why CyberBlue for Learning?
+### 🌟 Why BlackPerl_Onyx_Shield for Learning?
 
 - **🚀 Instant Lab Deployment**: Complete SOC training environment in about 30 minutes
 - **🎓 Education Focused**: Pre-configured with sample data for hands-on learning
@@ -147,12 +147,12 @@ CyberBlue transforms Blue Team cybersecurity tool deployment into a **like one-c
 
 ### ⚡ **Simple Installation**
 
-**Complete CyberBlueSOC installation in few commands:**
+**Complete BlackPerl_Onyx_ShieldSOC installation in few commands:**
 
 ```bash
-# Clone and install CyberBlue SOC
-git clone https://github.com/CyberBlu3s/CyberBlue.git
-cd CyberBlue
+# Clone and install BlackPerl_Onyx_Shield SOC
+git clone https://github.com/CyberBlu3s/BlackPerl_Onyx_Shield.git
+cd BlackPerl_Onyx_Shield
 chmod +x cyberblue_install.sh
 ./cyberblue_install.sh
 ```
@@ -228,9 +228,9 @@ No authentication required - direct access
 
 ---
 
-## 🎨 CyberBlue Portal Features
+## 🎨 BlackPerl_Onyx_Shield Portal Features
 
-The CyberBlue Portal provides a secure, unified interface for managing your security lab:
+The BlackPerl_Onyx_Shield Portal provides a secure, unified interface for managing your security lab:
 
 ### 📊 **Enhanced Dashboard**
 - Real-time container status monitoring (30+ containers)
@@ -263,11 +263,11 @@ The CyberBlue Portal provides a secure, unified interface for managing your secu
 
 ## 🐳 Architecture
 
-CyberBlue uses a microservices architecture with Docker Compose:
+BlackPerl_Onyx_Shield uses a microservices architecture with Docker Compose:
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   CyberBlue     │    │   SIEM Stack    │    │   DFIR Stack    │
+│   BlackPerl_Onyx_Shield     │    │   SIEM Stack    │    │   DFIR Stack    │
 │     Portal      │    │                 │    │                 │
 │   (Flask App)   │    │ • Wazuh         │    │ • Velociraptor  │
 │                 │    │ • Suricata      │    │ • Arkime        │
@@ -347,7 +347,7 @@ sudo docker stats
 ### 🛠️ **Utility Scripts**
 
 - **`./setup-prerequisites.sh`** - Install all system prerequisites
-- **`./cyberblue_install.sh`** - Main CyberBlue installation script  
+- **`./cyberblue_install.sh`** - Main BlackPerl_Onyx_Shield installation script  
 - **`./force-start.sh`** - Emergency restart for all services
 - **`./fix-fleet.sh`** - Fix Fleet database issues
 
@@ -533,7 +533,7 @@ sigma convert -t opensearch_lucene --without-pipeline \
 
 **Auto-Update Configuration:**
 
-CyberBlue automatically updates YARA and Sigma rules **every Sunday at 2:00 AM** via cron.
+BlackPerl_Onyx_Shield automatically updates YARA and Sigma rules **every Sunday at 2:00 AM** via cron.
 
 ```bash
 # View configured auto-update schedule
@@ -560,7 +560,7 @@ crontab -l | grep -v "yara-rules\|sigma-rules" | crontab -
 
 ## 📊 Monitoring & Metrics
 
-CyberBlue includes built-in monitoring:
+BlackPerl_Onyx_Shield includes built-in monitoring:
 
 - **Container Health**: Real-time status monitoring
 - **Resource Usage**: CPU, memory, disk utilization
@@ -583,7 +583,7 @@ CyberBlue includes built-in monitoring:
 
 - **🌍 Official Website (Not Up Yet)**: [https://cyberblue.co](https://cyberblue.co)
 - **📚 Documentation**: Available in this repository
-- **⭐ Star the Project**: Help others discover CyberBlue!
+- **⭐ Star the Project**: Help others discover BlackPerl_Onyx_Shield!
 
 ---
 
@@ -642,6 +642,6 @@ This project stands on the shoulders of giants. We are deeply grateful to the en
 
 **🌐 Visit [cyberblue.co](https://cyberblue.co) for tutorials and guides (Not Up Yet)**
 
-*CyberBlue v1.0-beta - Educational Cybersecurity Training Platform*
+*BlackPerl_Onyx_Shield v1.0-beta - Educational Cybersecurity Training Platform*
 
 </div>

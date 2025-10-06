@@ -1,5 +1,5 @@
 ================================================================================
-  CyberBlue Velociraptor Agent - Linux Installation Instructions
+  BlackPerl_Onyx_Shield Velociraptor Agent - Linux Installation Instructions
   Server: {{SERVER_IP}}:8000
 ================================================================================
 
@@ -28,7 +28,7 @@ INSTALLATION STEPS:
 5. Create systemd service:
    sudo tee /etc/systemd/system/velociraptor.service > /dev/null <<EOF
 [Unit]
-Description=Velociraptor Agent for CyberBlue
+Description=Velociraptor Agent for BlackPerl_Onyx_Shield
 After=network.target
 
 [Service]
@@ -70,6 +70,6 @@ FIREWALL:
   - Check firewall: sudo ufw status
 
 ================================================================================
-For support: Check CyberBlue documentation or Velociraptor docs
+For support: Check BlackPerl_Onyx_Shield documentation or Velociraptor docs
 ================================================================================
 

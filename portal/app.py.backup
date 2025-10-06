@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CyberBlueBox Portal - Python Flask Backend
+BlackPerl_Onyx_ShieldBox Portal - Python Flask Backend
 Central access point for all security tools with changelog functionality
 """
 
@@ -942,7 +942,7 @@ def get_dashboard_trends():
                 "labels": hours,
 #!/usr/bin/env python3
 """
-CyberBlueBox Portal - Python Flask Backend
+BlackPerl_Onyx_ShieldBox Portal - Python Flask Backend
 Central access point for all security tools with changelog functionality
 """
 
@@ -2006,7 +2006,7 @@ def get_network_stats():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
-    logger.info(f"🚀 Starting CyberBlueBox Portal on port {PORT}")
+    logger.info(f"🚀 Starting BlackPerl_Onyx_ShieldBox Portal on port {PORT}")
     logger.info(f"📱 Access the portal at: http://localhost:{PORT}")
     logger.info(f"🔧 API endpoints available at: http://localhost:{PORT}/api/")
 
@@ -2014,7 +2014,7 @@ if __name__ == '__main__':
         # Log initial startup
         changelog_manager.add_entry(
             "system_startup",
-            "CyberBlueBox Portal started successfully with container monitoring",
+            "BlackPerl_Onyx_ShieldBox Portal started successfully with container monitoring",
             level="info"
         )
 
@@ -2033,9 +2033,9 @@ if __name__ == '__main__':
         app.run(host='0.0.0.0', port=PORT, debug=False, threaded=True)
 
     except KeyboardInterrupt:
-        logger.info("Shutting down CyberBlueBox Portal...")
+        logger.info("Shutting down BlackPerl_Onyx_ShieldBox Portal...")
         changelog_manager.add_entry(
-            "system_shutdown", "CyberBlueBox Portal shut down gracefully")
+            "system_shutdown", "BlackPerl_Onyx_ShieldBox Portal shut down gracefully")
     except Exception as e:
         logger.error(f"Error starting server: {e}")
         changelog_manager.add_entry(

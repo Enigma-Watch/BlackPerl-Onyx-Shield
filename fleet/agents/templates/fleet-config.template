@@ -1,4 +1,4 @@
-# Fleet Osquery Configuration for CyberBlue
+# Fleet Osquery Configuration for BlackPerl_Onyx_Shield
 # Server: {{SERVER_IP}}:7007
 # Enrollment Secret: Pre-configured (in secret.txt)
 

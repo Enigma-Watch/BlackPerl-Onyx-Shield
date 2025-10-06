@@ -1,15 +1,15 @@
 #!/bin/bash
 
-# CyberBlueSOC Network Interface Update Script
+# BlackPerl_Onyx_ShieldSOC Network Interface Update Script
 # This script can be run anytime to update the network interface configuration
 # Usage: ./update-network-interface.sh [--restart-suricata]
 
 set -e
 
-echo "🔍 CyberBlueSOC Network Interface Update Script"
+echo "🔍 BlackPerl_Onyx_ShieldSOC Network Interface Update Script"
 echo "================================================"
 
-# Change to the CyberBlueSOC directory
+# Change to the BlackPerl_Onyx_ShieldSOC directory
 cd "$(dirname "$0")"
 
 # ----------------------------
@@ -50,7 +50,7 @@ ENV_FILE=".env"
 
 if [ ! -f "$ENV_FILE" ]; then
     echo "❌ Error: .env file not found in current directory"
-    echo "💡 Make sure you're running this script from the CyberBlueSOC directory"
+    echo "💡 Make sure you're running this script from the BlackPerl_Onyx_ShieldSOC directory"
     exit 1
 fi
 

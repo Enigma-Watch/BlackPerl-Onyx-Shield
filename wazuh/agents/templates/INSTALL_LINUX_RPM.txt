@@ -1,5 +1,5 @@
 ================================================================================
-  CyberBlue Wazuh Agent - Linux (RHEL/CentOS) Installation Instructions
+  BlackPerl_Onyx_Shield Wazuh Agent - Linux (RHEL/CentOS) Installation Instructions
   Manager Server: {{MANAGER_IP}}:1514
 ================================================================================
 
@@ -55,6 +55,6 @@ IMPORTANT NOTES:
   - Logs: /var/ossec/logs/
 
 ================================================================================
-For support: Check CyberBlue documentation or Wazuh docs at docs.wazuh.com
+For support: Check BlackPerl_Onyx_Shield documentation or Wazuh docs at docs.wazuh.com
 ================================================================================
 

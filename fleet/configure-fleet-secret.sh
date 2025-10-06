@@ -1,5 +1,5 @@
 #!/bin/bash
-# CyberBlue - Auto-configure Fleet Enrollment Secret
+# BlackPerl_Onyx_Shield - Auto-configure Fleet Enrollment Secret
 # Runs during installation - generates secret, sets in Fleet, saves for portal
 # Works for any user on any machine
 

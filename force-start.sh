@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ============================================================================
-# CyberBlue Force Start Script
+# BlackPerl_Onyx_Shield Force Start Script
 # ============================================================================
 # This script performs a complete Docker restart and brings up all services.
 # Use this when containers are stuck or Docker networking has issues.
@@ -25,10 +25,10 @@ NC='\033[0m' # No Color
 while [[ $# -gt 0 ]]; do
     case $1 in
         --help)
-            echo -e "${BLUE}CyberBlue Force Start Script${NC}"
+            echo -e "${BLUE}BlackPerl_Onyx_Shield Force Start Script${NC}"
             echo "============================================"
             echo ""
-            echo "This script performs a complete Docker restart and brings up all CyberBlue services."
+            echo "This script performs a complete Docker restart and brings up all BlackPerl_Onyx_Shield services."
             echo ""
             echo "Usage: $0 [OPTIONS]"
             echo ""
@@ -38,7 +38,7 @@ while [[ $# -gt 0 ]]; do
             echo "What this script does:"
             echo "  1. Restart Docker daemon"
             echo "  2. Wait for Docker to be ready"
-            echo "  3. Start all CyberBlue services with docker-compose"
+            echo "  3. Start all BlackPerl_Onyx_Shield services with docker-compose"
             echo ""
             echo "⚠️  Warning: This will temporarily stop all running containers"
             echo "✅ Use this when containers are stuck or networking has issues"
@@ -52,14 +52,14 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
-echo -e "${BLUE}🚀 CyberBlue Force Start Script${NC}"
+echo -e "${BLUE}🚀 BlackPerl_Onyx_Shield Force Start Script${NC}"
 echo "============================================"
 echo ""
 
 # Check if we're in the right directory
 if [ ! -f "docker-compose.yml" ]; then
     echo -e "${RED}❌ Error: docker-compose.yml not found${NC}"
-    echo "Please run this script from the CyberBlue directory"
+    echo "Please run this script from the BlackPerl_Onyx_Shield directory"
     exit 1
 fi
 
@@ -100,14 +100,14 @@ if [ $WAIT_TIME -ge $MAX_WAIT ]; then
 fi
 
 echo ""
-echo -e "${BLUE}🚀 Step 3: Starting all CyberBlue services...${NC}"
+echo -e "${BLUE}🚀 Step 3: Starting all BlackPerl_Onyx_Shield services...${NC}"
 echo "   This may take 2-5 minutes to bring up all 30+ containers"
 echo ""
 
 # Start all services with docker-compose
 if sudo docker compose up -d; then
     echo ""
-    echo -e "${GREEN}✅ All CyberBlue services started successfully${NC}"
+    echo -e "${GREEN}✅ All BlackPerl_Onyx_Shield services started successfully${NC}"
 else
     echo ""
     echo -e "${RED}❌ Failed to start some services${NC}"
@@ -137,7 +137,7 @@ else
 fi
 
 echo ""
-echo -e "${GREEN}🎉 CyberBlue Force Start Complete!${NC}"
+echo -e "${GREEN}🎉 BlackPerl_Onyx_Shield Force Start Complete!${NC}"
 echo "============================================"
 echo ""
 echo "📊 Final Status:"
@@ -145,7 +145,7 @@ echo "   • Deployment: $DEPLOYMENT_STATUS"
 echo "   • Running Containers: $RUNNING_CONTAINERS"
 echo "   • Docker Status: ✅ Healthy"
 echo ""
-echo "🌐 Access Your CyberBlue Portal:"
+echo "🌐 Access Your BlackPerl_Onyx_Shield Portal:"
 echo "   🔒 HTTPS: https://$(hostname -I | awk '{print $1}'):5443"
 echo "   🔑 Login: admin / cyberblue123"
 echo ""

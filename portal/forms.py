@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CyberBlueSOC Portal Forms
+BlackPerl_Onyx_ShieldSOC Portal Forms
 WTForms for authentication and user management
 """
 

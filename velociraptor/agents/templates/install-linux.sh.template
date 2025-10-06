@@ -1,5 +1,5 @@
 #!/bin/bash
-# CyberBlue Velociraptor Agent Installation Script for Linux
+# BlackPerl_Onyx_Shield Velociraptor Agent Installation Script for Linux
 # Generated for server: {{SERVER_IP}}
 # This script must be run as root or with sudo
 
@@ -21,7 +21,7 @@ SERVICE_NAME="velociraptor"
 VELOCI_BIN="$INSTALL_DIR/velociraptor"
 
 echo -e "${CYAN}========================================${NC}"
-echo -e "${CYAN}CyberBlue Velociraptor Agent Installer${NC}"
+echo -e "${CYAN}BlackPerl_Onyx_Shield Velociraptor Agent Installer${NC}"
 echo -e "${CYAN}Server: ${SERVER_IP}:8000${NC}"
 echo -e "${CYAN}========================================${NC}"
 echo ""
@@ -132,7 +132,7 @@ create_systemd_service() {
     
     cat > /etc/systemd/system/${SERVICE_NAME}.service <<EOF
 [Unit]
-Description=Velociraptor Agent for CyberBlue
+Description=Velociraptor Agent for BlackPerl_Onyx_Shield
 After=network.target
 
 [Service]

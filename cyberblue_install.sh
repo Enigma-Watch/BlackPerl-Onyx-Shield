@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # ============================================================================
-# CyberBlue SOC Platform - Fully Automated Installation Script (VERBOSE)
+# BlackPerl_Onyx_Shield SOC Platform - Fully Automated Installation Script (VERBOSE)
 # ============================================================================
-# This script combines prerequisites setup and CyberBlue initialization
+# This script combines prerequisites setup and BlackPerl_Onyx_Shield initialization
 # into one fully automated installation - NO user intervention required!
 #
 # Usage: ./install-cyberblue-auto.sh
@@ -13,7 +13,7 @@
 # ✅ Full visibility - see everything happening in real-time
 # ✅ Automatic prerequisite detection and installation
 # ✅ Full Docker and Docker Compose setup
-# ✅ Complete CyberBlue SOC platform deployment
+# ✅ Complete BlackPerl_Onyx_Shield SOC platform deployment
 # ✅ Works on AWS, Azure, GCP, VMware, VirtualBox, bare metal
 # ============================================================================
 
@@ -478,7 +478,7 @@ echo -e "${BLUE}║  PART 2/2: DEPLOYING CYBERBLUE SOC PLATFORM            ║${
 echo -e "${BLUE}═══════════════════════════════════════════════════════════${NC}"
 echo ""
 
-echo -e "${CYAN}🎉 Starting CyberBlue SOC deployment...${NC}"
+echo -e "${CYAN}🎉 Starting BlackPerl_Onyx_Shield SOC deployment...${NC}"
 echo ""
 
 # Change to script directory
@@ -781,7 +781,7 @@ if [ -f "./fix-arkime.sh" ]; then
 fi
 
 echo -e "${CYAN}   [ARKIME]${NC} Creating admin user..."
-(timeout --kill-after=3s 30s sudo docker exec arkime /opt/arkime/bin/arkime_add_user.sh admin "CyberBlue Admin" admin --admin 2>&1 || true) | while IFS= read -r line; do echo -e "${CYAN}   [USER]${NC} $line"; done || true
+(timeout --kill-after=3s 30s sudo docker exec arkime /opt/arkime/bin/arkime_add_user.sh admin "BlackPerl_Onyx_Shield Admin" admin --admin 2>&1 || true) | while IFS= read -r line; do echo -e "${CYAN}   [USER]${NC} $line"; done || true
 echo -e "${GREEN}✅ Arkime initialized${NC}"
 
 echo ""
@@ -856,7 +856,7 @@ Wants=network-online.target
 [Service]
 Type=oneshot
 RemainAfterExit=yes
-WorkingDirectory=/home/ubuntu/CyberBlueSOCx
+WorkingDirectory=/home/ubuntu/BlackPerl_Onyx_ShieldSOCx
 ExecStartPre=/bin/bash -c 'timeout 30 bash -c "until docker info >/dev/null 2>&1; do sleep 2; done"'
 ExecStart=/bin/bash -c 'if docker ps -a --format "{{.Names}}" | grep -q "^caldera$"; then docker start caldera; else echo "Caldera container not found"; fi'
 ExecStop=/usr/bin/docker stop caldera
@@ -932,11 +932,11 @@ cat > /tmp/misp-auto-setup.sh << 'MISP_SCRIPT'
 
 sleep 300  # Wait 5 minutes for MISP database to initialize
 
-# Find CyberBlue directory - read from .env file (most reliable!)
+# Find BlackPerl_Onyx_Shield directory - read from .env file (most reliable!)
 SCRIPT_DIR=""
 
 # Method 1: Read from .env in known locations
-for base_dir in /home/*/CyberBlue /root/CyberBlue; do
+for base_dir in /home/*/BlackPerl_Onyx_Shield /root/BlackPerl_Onyx_Shield; do
     if [ -f "$base_dir/.env" ]; then
         FOUND_DIR=$(grep "^CYBERBLUE_INSTALL_DIR=" "$base_dir/.env" 2>/dev/null | cut -d'=' -f2)
         if [ -n "$FOUND_DIR" ] && [ -d "$FOUND_DIR" ]; then
@@ -954,7 +954,7 @@ fi
 
 # Method 3: Last resort - find it
 if [ -z "$SCRIPT_DIR" ]; then
-    for base_dir in /home/*/CyberBlue /root/CyberBlue; do
+    for base_dir in /home/*/BlackPerl_Onyx_Shield /root/BlackPerl_Onyx_Shield; do
         if [ -f "$base_dir/misp/configure-threat-feeds.sh" ]; then
             SCRIPT_DIR="$base_dir"
             break
@@ -963,7 +963,7 @@ if [ -z "$SCRIPT_DIR" ]; then
 fi
 
 if [ -z "$SCRIPT_DIR" ] || [ ! -d "$SCRIPT_DIR" ]; then
-    echo "[MISP AUTO-SETUP] ERROR: Could not find CyberBlue directory"
+    echo "[MISP AUTO-SETUP] ERROR: Could not find BlackPerl_Onyx_Shield directory"
     exit 1
 fi
 
@@ -1015,16 +1015,16 @@ fi
 # End of old method - above code is disabled
 
 echo ""
-echo -e "${BLUE}🔧 Step 2.17: CyberBlue Auto-Start on Reboot${NC}"
+echo -e "${BLUE}🔧 Step 2.17: BlackPerl_Onyx_Shield Auto-Start on Reboot${NC}"
 show_progress "Configuring automatic service startup after reboot..."
 
 # Get the actual installation directory
 INSTALL_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-# Create systemd service for CyberBlue auto-start
+# Create systemd service for BlackPerl_Onyx_Shield auto-start
 sudo tee /etc/systemd/system/cyberblue-autostart.service > /dev/null << EOF
 [Unit]
-Description=CyberBlue SOC Platform Auto-Start
+Description=BlackPerl_Onyx_Shield SOC Platform Auto-Start
 After=network-online.target docker.service
 Wants=network-online.target
 Requires=docker.service
@@ -1051,8 +1051,8 @@ sudo systemctl daemon-reload
 echo -e "${CYAN}   [SYSTEMD]${NC} Enabling cyberblue-autostart.service..."
 sudo systemctl enable cyberblue-autostart.service 2>&1 | head -3 | while read line; do echo -e "${CYAN}   [SYSTEMD]${NC} $line"; done
 
-echo -e "${GREEN}✅ CyberBlue auto-start configured${NC}"
-echo -e "${CYAN}   [INFO]${NC} CyberBlue will automatically start after system reboots"
+echo -e "${GREEN}✅ BlackPerl_Onyx_Shield auto-start configured${NC}"
+echo -e "${CYAN}   [INFO]${NC} BlackPerl_Onyx_Shield will automatically start after system reboots"
 echo -e "${CYAN}   [INFO]${NC} Service: cyberblue-autostart.service"
 
 # ============================================================================
@@ -1124,7 +1124,7 @@ echo "   📊 Sigma: ✅ Installed (3,047+ detection rules)"
 echo "   🔄 Auto-Update: ✅ Weekly (Sundays 2 AM)"
 echo "   🔁 Auto-Start: ✅ Enabled (starts on reboot)"
 echo ""
-echo -e "${BLUE}🌐 Access Your CyberBlue SOC Tools:${NC}"
+echo -e "${BLUE}🌐 Access Your BlackPerl_Onyx_Shield SOC Tools:${NC}"
 echo ""
 echo -e "${GREEN}   🏠 Main Portal:    https://${HOST_IP}:5443${NC}"
 echo "      └─ Credentials: admin / cyberblue123"
@@ -1157,7 +1157,7 @@ echo "   • Sigma Rules:   3,047+ rules in /opt/sigma-rules/"
 echo ""
 echo -e "${YELLOW}🚨 REMEMBER: Educational/Testing Environment Only!${NC}"
 echo ""
-echo -e "${GREEN}✨ CyberBlue SOC Platform is ready for training!${NC}"
+echo -e "${GREEN}✨ BlackPerl_Onyx_Shield SOC Platform is ready for training!${NC}"
 echo ""
 echo -e "${CYAN}💡 Quick Commands:${NC}"
 echo "   • Check status:  sudo docker ps"

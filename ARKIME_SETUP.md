@@ -1,10 +1,10 @@
-# 🔍 Arkime Setup Guide for CyberBlueSOC
+# 🔍 Arkime Setup Guide for BlackPerl_Onyx_ShieldSOC
 
-This guide explains how Arkime is integrated into CyberBlueSOC and how to use it effectively.
+This guide explains how Arkime is integrated into BlackPerl_Onyx_ShieldSOC and how to use it effectively.
 
 ## 🎯 Overview
 
-Arkime is a full packet capture and analysis tool that provides deep network visibility. In CyberBlueSOC, it's automatically configured to work with OpenSearch for data storage and analysis.
+Arkime is a full packet capture and analysis tool that provides deep network visibility. In BlackPerl_Onyx_ShieldSOC, it's automatically configured to work with OpenSearch for data storage and analysis.
 
 ## 🚀 Automatic Setup
 
@@ -293,7 +293,7 @@ Create custom views in the Arkime interface:
 ```bash
 # Set up automated PCAP processing
 # Add to crontab for regular processing
-0 */6 * * * cd /home/ubuntu/CyberBlueSOC && ./scripts/initialize-arkime.sh --capture-live
+0 */6 * * * cd /home/ubuntu/BlackPerl_Onyx_ShieldSOC && ./scripts/initialize-arkime.sh --capture-live
 ```
 
 ## 🎯 Best Practices
@@ -301,5 +301,5 @@ Create custom views in the Arkime interface:
 1. **Regular Data Capture**: Set up automated traffic capture
 2. **Storage Management**: Monitor disk usage and set retention policies
 3. **User Management**: Create role-based users for different teams
-4. **Integration**: Use with other CyberBlueSOC tools for comprehensive analysis
+4. **Integration**: Use with other BlackPerl_Onyx_ShieldSOC tools for comprehensive analysis
 5. **Documentation**: Document custom queries and analysis procedures

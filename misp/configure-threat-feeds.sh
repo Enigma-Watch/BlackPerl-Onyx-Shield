@@ -1,5 +1,5 @@
 #!/bin/bash
-# CyberBlue - Auto-configure MISP Threat Feeds
+# BlackPerl_Onyx_Shield - Auto-configure MISP Threat Feeds
 # Enables popular free feeds and syncs initial data
 # Works automatically during installation
 

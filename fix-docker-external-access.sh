@@ -273,7 +273,7 @@ Requires=docker.service
 [Service]
 Type=oneshot
 RemainAfterExit=yes
-ExecStart=/home/ubuntu/CyberBlueSOCx/fix-docker-external-access.sh --apply-only
+ExecStart=/home/ubuntu/BlackPerl_Onyx_ShieldSOCx/fix-docker-external-access.sh --apply-only
 User=root
 
 [Install]

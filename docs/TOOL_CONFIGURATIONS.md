@@ -1,12 +1,12 @@
-# ⚙️ CyberBlue Tool Configurations
+# ⚙️ BlackPerl_Onyx_Shield Tool Configurations
 
-Comprehensive configuration guide for all security tools in the CyberBlue platform.
+Comprehensive configuration guide for all security tools in the BlackPerl_Onyx_Shield platform.
 
 ---
 
 ## 🎯 Overview
 
-This guide provides detailed configuration instructions, best practices, and advanced settings for each tool in the CyberBlue platform. Each section includes basic setup, advanced configurations, and integration with other tools.
+This guide provides detailed configuration instructions, best practices, and advanced settings for each tool in the BlackPerl_Onyx_Shield platform. Each section includes basic setup, advanced configurations, and integration with other tools.
 
 ---
 
@@ -583,7 +583,7 @@ action-order:
 ```bash
 # /opt/cyberblue/suricata/rules/local.rules
 
-# Custom CyberBlue Rules
+# Custom BlackPerl_Onyx_Shield Rules
 
 # Detect DNS over HTTPS (DoH)
 alert tls $HOME_NET any -> any 443 (msg:"Possible DNS over HTTPS"; flow:established,to_server; tls.sni; content:"cloudflare-dns.com"; sid:1000001; rev:1;)
@@ -675,7 +675,7 @@ $config = array (
     'deadlock_avoidance' => true,
     'download_gpg_from_homedir' => false,
     'download_attachments_on_load' => true,
-    'title_text' => 'CyberBlue MISP',
+    'title_text' => 'BlackPerl_Onyx_Shield MISP',
     'terms_download' => false,
     'showorgalternate' => false,
     'event_alert_republish_ban' => false,
@@ -683,7 +683,7 @@ $config = array (
     'event_alert_republish_ban_refresh_on_retry' => false,
     'volatile_redis_connection' => false,
     'incoming_tags_disabled_by_default' => false,
-    'footermidleft' => 'CyberBlue',
+    'footermidleft' => 'BlackPerl_Onyx_Shield',
     'footermidright' => 'Threat Intelligence Platform',
     'homepage' => 'https://cyberblue.local'
   ),
@@ -783,10 +783,10 @@ curl -k -X POST "$MISP_URL/feeds/add" \
 ```json
 // attack-navigator/custom-layer.json
 {
-  "name": "CyberBlue Detection Coverage",
+  "name": "BlackPerl_Onyx_Shield Detection Coverage",
   "version": "4.5",
   "domain": "enterprise-attack",
-  "description": "Detection coverage for CyberBlue environment",
+  "description": "Detection coverage for BlackPerl_Onyx_Shield environment",
   "filters": {
     "stages": ["act"],
     "platforms": ["windows", "linux", "macos"]
@@ -960,8 +960,8 @@ api_config:
 
 #### Custom Artifacts
 ```yaml
-# /opt/cyberblue/velociraptor/artifacts/CyberBlue.Suspicious.PowerShell.yaml
-name: CyberBlue.Suspicious.PowerShell
+# /opt/cyberblue/velociraptor/artifacts/BlackPerl_Onyx_Shield.Suspicious.PowerShell.yaml
+name: BlackPerl_Onyx_Shield.Suspicious.PowerShell
 description: |
   Collect suspicious PowerShell activity from Windows Event Logs
 
@@ -1010,7 +1010,7 @@ sources:
 reports:
   - type: CLIENT
     template: |
-      # CyberBlue Suspicious PowerShell Activity
+      # BlackPerl_Onyx_Shield Suspicious PowerShell Activity
       
       {{ range .Query }}
       ## Event {{ .EventID }} - {{ .EventTime }}
@@ -1084,7 +1084,7 @@ dontSaveIPs=10.0.0.0/8;192.168.0.0/16;172.16.0.0/12;127.0.0.0/8
 #### Workflow Configuration
 ```json
 {
-  "name": "CyberBlue Incident Response",
+  "name": "BlackPerl_Onyx_Shield Incident Response",
   "description": "Automated incident response workflow",
   "start": "webhook_trigger",
   "triggers": [
@@ -1282,11 +1282,11 @@ notification.webhook.endpoints = [
 ```javascript
 // /opt/cyberblue/cyberchef/custom-operations.js
 
-// Custom operation for CyberBlue log parsing
-const CyberBlueLogParser = {
-    "op": "CyberBlue Log Parser",
+// Custom operation for BlackPerl_Onyx_Shield log parsing
+const BlackPerl_Onyx_ShieldLogParser = {
+    "op": "BlackPerl_Onyx_Shield Log Parser",
     "module": "Custom",
-    "description": "Parse CyberBlue security logs",
+    "description": "Parse BlackPerl_Onyx_Shield security logs",
     "infoURL": "",
     "inputType": "string",
     "outputType": "JSON",
@@ -1360,7 +1360,7 @@ const CyberBlueLogParser = {
 
 // Add to CyberChef operations
 if (typeof module !== 'undefined') {
-    module.exports = CyberBlueLogParser;
+    module.exports = BlackPerl_Onyx_ShieldLogParser;
 }
 ```
 
@@ -1368,7 +1368,7 @@ if (typeof module !== 'undefined') {
 
 #### Stack Configuration Template
 ```yaml
-# Portainer stack template for CyberBlue monitoring
+# Portainer stack template for BlackPerl_Onyx_Shield monitoring
 version: '3.8'
 
 services:
@@ -1540,7 +1540,7 @@ if __name__ == "__main__":
 cd /opt/cyberblue
 git init
 git add .env* docker-compose.yml configs/ ssl/
-git commit -m "Initial CyberBlue configuration backup"
+git commit -m "Initial BlackPerl_Onyx_Shield configuration backup"
 
 # Create configuration versioning script
 cat > scripts/version-config.sh << 'EOF'
@@ -1559,7 +1559,7 @@ chmod +x scripts/version-config.sh
 #!/bin/bash
 # scripts/validate-configs.sh
 
-echo "Validating CyberBlue configurations..."
+echo "Validating BlackPerl_Onyx_Shield configurations..."
 
 # Validate Docker Compose
 if docker-compose config > /dev/null 2>&1; then

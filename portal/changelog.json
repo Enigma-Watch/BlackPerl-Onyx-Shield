@@ -3,7 +3,7 @@
     {
       "timestamp": "2025-08-01T00:38:36.070794",
       "action": "system_startup",
-      "details": "CyberBlueBox Portal started successfully with container monitoring",
+      "details": "BlackPerl_Onyx_ShieldBox Portal started successfully with container monitoring",
       "user": "system",
       "level": "info",
       "id": 1
@@ -755,7 +755,7 @@
     {
       "timestamp": "2025-08-01T00:47:01.312070",
       "action": "system_startup",
-      "details": "CyberBlueBox Portal started successfully with container monitoring",
+      "details": "BlackPerl_Onyx_ShieldBox Portal started successfully with container monitoring",
       "user": "system",
       "level": "info",
       "id": 95
@@ -1339,7 +1339,7 @@
     {
       "timestamp": "2025-08-01T00:49:17.805278",
       "action": "system_startup",
-      "details": "CyberBlueBox Portal started successfully with container monitoring",
+      "details": "BlackPerl_Onyx_ShieldBox Portal started successfully with container monitoring",
       "user": "system",
       "level": "info",
       "id": 168
@@ -1907,7 +1907,7 @@
     {
       "timestamp": "2025-08-01T00:51:21.530718",
       "action": "system_startup",
-      "details": "CyberBlueBox Portal started successfully with container monitoring",
+      "details": "BlackPerl_Onyx_ShieldBox Portal started successfully with container monitoring",
       "user": "system",
       "level": "info",
       "id": 239
@@ -2723,7 +2723,7 @@
     {
       "timestamp": "2025-08-01T00:55:58.875916",
       "action": "system_startup",
-      "details": "CyberBlueBox Portal started successfully with container monitoring",
+      "details": "BlackPerl_Onyx_ShieldBox Portal started successfully with container monitoring",
       "user": "system",
       "level": "info",
       "id": 341
@@ -3235,7 +3235,7 @@
     {
       "timestamp": "2025-08-01T01:01:01.491858",
       "action": "system_startup",
-      "details": "CyberBlueBox Portal started successfully with container monitoring",
+      "details": "BlackPerl_Onyx_ShieldBox Portal started successfully with container monitoring",
       "user": "system",
       "level": "info",
       "id": 405
@@ -3683,7 +3683,7 @@
     {
       "timestamp": "2025-08-01T01:05:14.995253",
       "action": "system_startup",
-      "details": "CyberBlueBox Portal started successfully with container monitoring",
+      "details": "BlackPerl_Onyx_ShieldBox Portal started successfully with container monitoring",
       "user": "system",
       "level": "info",
       "id": 461
@@ -4283,7 +4283,7 @@
     {
       "timestamp": "2025-08-01T01:10:19.283364",
       "action": "system_startup",
-      "details": "CyberBlueBox Portal started successfully with container monitoring",
+      "details": "BlackPerl_Onyx_ShieldBox Portal started successfully with container monitoring",
       "user": "system",
       "level": "info",
       "id": 536
@@ -5083,7 +5083,7 @@
     {
       "timestamp": "2025-08-01T01:14:13.086846",
       "action": "system_startup",
-      "details": "CyberBlueBox Portal started successfully with container monitoring",
+      "details": "BlackPerl_Onyx_ShieldBox Portal started successfully with container monitoring",
       "user": "system",
       "level": "info",
       "id": 636
@@ -5571,7 +5571,7 @@
     {
       "timestamp": "2025-08-01T01:15:05.992670",
       "action": "system_startup",
-      "details": "CyberBlueBox Portal started successfully with container monitoring",
+      "details": "BlackPerl_Onyx_ShieldBox Portal started successfully with container monitoring",
       "user": "system",
       "level": "info",
       "id": 697
@@ -5579,7 +5579,7 @@
     {
       "timestamp": "2025-08-01T01:15:26.756872",
       "action": "system_startup",
-      "details": "CyberBlueBox Portal started successfully with container monitoring",
+      "details": "BlackPerl_Onyx_ShieldBox Portal started successfully with container monitoring",
       "user": "system",
       "level": "info",
       "id": 698
@@ -6283,7 +6283,7 @@
     {
       "timestamp": "2025-08-01T01:19:07.429737",
       "action": "system_startup",
-      "details": "CyberBlueBox Portal started successfully with container monitoring",
+      "details": "BlackPerl_Onyx_ShieldBox Portal started successfully with container monitoring",
       "user": "system",
       "level": "info",
       "id": 786
@@ -6771,7 +6771,7 @@
     {
       "timestamp": "2025-08-01T01:20:30.492509",
       "action": "system_startup",
-      "details": "CyberBlueBox Portal started successfully with container monitoring",
+      "details": "BlackPerl_Onyx_ShieldBox Portal started successfully with container monitoring",
       "user": "system",
       "level": "info",
       "id": 847
@@ -7707,7 +7707,7 @@
     {
       "timestamp": "2025-08-01T01:28:04.242900",
       "action": "system_startup",
-      "details": "CyberBlueBox Portal started successfully with container monitoring",
+      "details": "BlackPerl_Onyx_ShieldBox Portal started successfully with container monitoring",
       "user": "system",
       "level": "info",
       "id": 964
@@ -8403,7 +8403,7 @@
     {
       "timestamp": "2025-08-01T01:31:11.378021",
       "action": "system_startup",
-      "details": "CyberBlueBox Portal started successfully with container monitoring",
+      "details": "BlackPerl_Onyx_ShieldBox Portal started successfully with container monitoring",
       "user": "system",
       "level": "info",
       "id": 1051
@@ -9019,7 +9019,7 @@
     {
       "timestamp": "2025-08-01T01:33:43.874257",
       "action": "system_startup",
-      "details": "CyberBlueBox Portal started successfully with container monitoring",
+      "details": "BlackPerl_Onyx_ShieldBox Portal started successfully with container monitoring",
       "user": "system",
       "level": "info",
       "id": 1128
@@ -9555,7 +9555,7 @@
     {
       "timestamp": "2025-08-01T01:35:01.518338",
       "action": "system_startup",
-      "details": "CyberBlueBox Portal started successfully with container monitoring",
+      "details": "BlackPerl_Onyx_ShieldBox Portal started successfully with container monitoring",
       "user": "system",
       "level": "info",
       "id": 1195
@@ -10331,7 +10331,7 @@
     {
       "timestamp": "2025-08-01T01:40:04.178575",
       "action": "system_startup",
-      "details": "CyberBlueBox Portal started successfully with container monitoring",
+      "details": "BlackPerl_Onyx_ShieldBox Portal started successfully with container monitoring",
       "user": "system",
       "level": "info",
       "id": 1292
@@ -11203,7 +11203,7 @@
     {
       "timestamp": "2025-08-01T01:44:26.913888",
       "action": "system_startup",
-      "details": "CyberBlueBox Portal started successfully with container monitoring",
+      "details": "BlackPerl_Onyx_ShieldBox Portal started successfully with container monitoring",
       "user": "system",
       "level": "info",
       "id": 1401
@@ -11899,7 +11899,7 @@
     {
       "timestamp": "2025-08-01T01:51:02.484999",
       "action": "system_startup",
-      "details": "CyberBlueBox Portal started successfully with container monitoring",
+      "details": "BlackPerl_Onyx_ShieldBox Portal started successfully with container monitoring",
       "user": "system",
       "level": "info",
       "id": 1488

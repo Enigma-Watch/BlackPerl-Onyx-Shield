@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Arkime Initialization Script for CyberBlueSOC
+# Arkime Initialization Script for BlackPerl_Onyx_ShieldSOC
 # This script can be run anytime to set up Arkime with sample data
 # Usage: ./initialize-arkime.sh [--force] [--capture-live]
 
@@ -41,10 +41,10 @@ for arg in "$@"; do
     esac
 done
 
-echo "🔍 Initializing Arkime for CyberBlueSOC..."
+echo "🔍 Initializing Arkime for BlackPerl_Onyx_ShieldSOC..."
 echo "================================================"
 
-# Change to CyberBlueSOC directory
+# Change to BlackPerl_Onyx_ShieldSOC directory
 cd "$(dirname "$0")/.."
 
 # Step 1: Check prerequisites

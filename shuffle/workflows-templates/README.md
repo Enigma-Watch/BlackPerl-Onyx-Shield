@@ -1,4 +1,4 @@
-# CyberBlue Shuffle Workflow Templates
+# BlackPerl_Onyx_Shield Shuffle Workflow Templates
 
 ## 📦 Pre-Built Workflows
 
@@ -6,7 +6,7 @@ These workflows are ready to import into Shuffle for common SOC operations.
 
 ### Available Workflows:
 
-1. **integration-test.json** - Simple workflow to test all CyberBlue tool connections
+1. **integration-test.json** - Simple workflow to test all BlackPerl_Onyx_Shield tool connections
    - Tests connectivity to Wazuh, MISP, TheHive, Velociraptor
    - Verifies API endpoints
    - Good for validating your setup
@@ -29,7 +29,7 @@ These workflows are ready to import into Shuffle for common SOC operations.
 5. Configure any API keys if needed
 6. Click "Save"
 
-### Method 2: Via CyberBlue Portal (Coming Soon)
+### Method 2: Via BlackPerl_Onyx_Shield Portal (Coming Soon)
 - Portal will have one-click import buttons
 
 ---
@@ -46,7 +46,7 @@ These workflows are ready to import into Shuffle for common SOC operations.
 ## 🎓 Learning Resources
 
 - Shuffle Documentation: https://shuffler.io/docs
-- CyberBlue Integration Guide: See `integration-guide/CYBERBLUE_TOOLS_INTEGRATION.md`
+- BlackPerl_Onyx_Shield Integration Guide: See `integration-guide/CYBERBLUE_TOOLS_INTEGRATION.md`
 - Tool-specific APIs: Check each tool's documentation
 
 ---
@@ -54,7 +54,7 @@ These workflows are ready to import into Shuffle for common SOC operations.
 ## 💡 Tips
 
 - Start with integration-test workflow to verify setup
-- Use CyberBlue's default credentials (documented in integration guide)
+- Use BlackPerl_Onyx_Shield's default credentials (documented in integration guide)
 - Test workflows in Shuffle before deploying to production
 - All tools are on the same Docker network for easy communication
 

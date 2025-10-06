@@ -1,5 +1,5 @@
 #!/bin/bash
-# CyberBlue - Download Fleet/Osquery Agent Packages
+# BlackPerl_Onyx_Shield - Download Fleet/Osquery Agent Packages
 # Works with any user on any machine
 
 set -e

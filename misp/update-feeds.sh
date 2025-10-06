@@ -1,5 +1,5 @@
 #!/bin/bash
-# CyberBlue - MISP Feed Update (Every 3 Hours)
+# BlackPerl_Onyx_Shield - MISP Feed Update (Every 3 Hours)
 # Runs via cron to keep threat intel fresh
 
 MISP_API_KEY=$(sudo docker exec misp-core mysql -h db -u misp -pexample misp -se "SELECT authkey FROM users WHERE email='admin@admin.test' LIMIT 1;" 2>/dev/null || echo "")

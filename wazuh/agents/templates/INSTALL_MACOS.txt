@@ -1,5 +1,5 @@
 ================================================================================
-  CyberBlue Wazuh Agent - macOS Installation Instructions
+  BlackPerl_Onyx_Shield Wazuh Agent - macOS Installation Instructions
   Manager Server: {{MANAGER_IP}}:1514
 ================================================================================
 
@@ -57,6 +57,6 @@ IMPORTANT NOTES:
   - macOS may require security approval for system extensions
 
 ================================================================================
-For support: Check CyberBlue documentation or Wazuh docs at docs.wazuh.com
+For support: Check BlackPerl_Onyx_Shield documentation or Wazuh docs at docs.wazuh.com
 ================================================================================
 

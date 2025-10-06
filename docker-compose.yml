@@ -23,7 +23,7 @@ services:
       - HTTPS_PORT=5443
       - FLASK_ENV=production
       - HOST_IP=${HOST_IP}
-      - CYBERBLUE_INSTALL_DIR=${CYBERBLUE_INSTALL_DIR:-/home/ubuntu/CyberBlue}
+      - CYBERBLUE_INSTALL_DIR=${CYBERBLUE_INSTALL_DIR:-/home/ubuntu/BlackPerl_Onyx_Shield}
       - CYBERBLUE_INSTALL_USER=${CYBERBLUE_INSTALL_USER:-ubuntu}
       - ENABLE_HTTPS=true
       - SSL_CERT_PATH=/app/ssl/cert.pem

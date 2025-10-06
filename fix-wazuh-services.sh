@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ============================================================================
-# CyberBlue SOC - Complete Wazuh Services Fix
+# BlackPerl_Onyx_Shield SOC - Complete Wazuh Services Fix
 # ============================================================================
 # This script completely fixes all Wazuh SSL certificate issues and ensures
 # all Wazuh components (indexer, manager, dashboard) start properly.
@@ -174,7 +174,7 @@ TOTAL_RUNNING=$(sudo docker ps | grep -c "Up" || echo "0")
 echo "   Running containers: $TOTAL_RUNNING"
 echo ""
 echo -e "${CYAN}🌐 Next Steps:${NC}"
-echo "1. Check CyberBlue Portal: https://$(hostname -I | awk '{print $1}'):5443"
+echo "1. Check BlackPerl_Onyx_Shield Portal: https://$(hostname -I | awk '{print $1}'):5443"
 echo "2. Should now show 15/15 services running"
 echo "3. Access Wazuh at: http://$(hostname -I | awk '{print $1}'):7001"
 echo ""

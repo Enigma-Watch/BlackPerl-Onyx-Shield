@@ -7,7 +7,7 @@ Fleet agent deployment is **less automated** than Velociraptor/Wazuh because Fle
 ## Workflow
 
 1. **Admin** logs into Fleet UI → Gets enrollment secret
-2. **Download** agent package from CyberBlue portal
+2. **Download** agent package from BlackPerl_Onyx_Shield portal
 3. **Install** osquery on endpoint
 4. **Manually enter** the enrollment secret during setup
 5. **Configure** Fleet server URL (pre-configured in package)

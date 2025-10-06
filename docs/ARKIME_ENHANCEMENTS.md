@@ -1,12 +1,12 @@
 # 🔍 Arkime Enhancements & PCAP Generation Guide
 
-Comprehensive guide for the enhanced Arkime setup, live traffic capture, and PCAP generation capabilities in CyberBlueSOC.
+Comprehensive guide for the enhanced Arkime setup, live traffic capture, and PCAP generation capabilities in BlackPerl_Onyx_ShieldSOC.
 
 ---
 
 ## 🎯 Overview
 
-CyberBlueSOC now includes advanced Arkime capabilities with live traffic capture, real-time monitoring, and flexible PCAP generation. These enhancements provide Blue Teams with powerful network analysis tools that integrate seamlessly with the platform.
+BlackPerl_Onyx_ShieldSOC now includes advanced Arkime capabilities with live traffic capture, real-time monitoring, and flexible PCAP generation. These enhancements provide Blue Teams with powerful network analysis tools that integrate seamlessly with the platform.
 
 ---
 
@@ -298,7 +298,7 @@ cat /proc/net/dev
 
 ---
 
-## 🔄 **Integration with CyberBlue Platform**
+## 🔄 **Integration with BlackPerl_Onyx_Shield Platform**
 
 ### **Automatic Integration**
 - **cyberblue_init.sh** automatically calls `fix-arkime.sh --live-30s`
@@ -391,8 +391,8 @@ echo "📋 Incident PCAP saved: incident_${INCIDENT_ID}.pcap"
 1. **Check logs**: `sudo docker logs arkime`
 2. **Review troubleshooting**: Common issues above
 3. **Test connectivity**: `sudo docker exec arkime curl http://os01:9200/_cluster/health`
-4. **GitHub Issues**: [Report bugs or request features](https://github.com/CyberBlue0/CyberBlueSOC1/issues)
-5. **Community**: [Join discussions](https://github.com/CyberBlue0/CyberBlueSOC1/discussions)
+4. **GitHub Issues**: [Report bugs or request features](https://github.com/BlackPerl_Onyx_Shield0/BlackPerl_Onyx_ShieldSOC1/issues)
+5. **Community**: [Join discussions](https://github.com/BlackPerl_Onyx_Shield0/BlackPerl_Onyx_ShieldSOC1/discussions)
 
 ### **Contributing**
 - **Submit improvements** to Arkime scripts
@@ -403,4 +403,4 @@ echo "📋 Incident PCAP saved: incident_${INCIDENT_ID}.pcap"
 ---
 
 *Last Updated: August 31, 2025*
-*Version: CyberBlueSOC 1.4 Enhanced*
+*Version: BlackPerl_Onyx_ShieldSOC 1.4 Enhanced*

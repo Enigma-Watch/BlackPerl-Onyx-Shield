@@ -1,5 +1,5 @@
 ================================================================================
-  CyberBlue Velociraptor Agent - Windows Installation Instructions
+  BlackPerl_Onyx_Shield Velociraptor Agent - Windows Installation Instructions
   Server: {{SERVER_IP}}:8000
 ================================================================================
 
@@ -48,6 +48,6 @@ FIREWALL:
   - Windows Firewall should automatically allow the service
 
 ================================================================================
-For support: Check CyberBlue documentation or Velociraptor docs
+For support: Check BlackPerl_Onyx_Shield documentation or Velociraptor docs
 ================================================================================
 

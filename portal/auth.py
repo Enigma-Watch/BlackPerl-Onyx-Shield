@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CyberBlueSOC Portal Authentication Module
+BlackPerl_Onyx_ShieldSOC Portal Authentication Module
 Handles user authentication, session management, and security
 """
 
@@ -43,7 +43,7 @@ class User(UserMixin):
 
 
 class AuthManager:
-    """Authentication manager for CyberBlueSOC Portal"""
+    """Authentication manager for BlackPerl_Onyx_ShieldSOC Portal"""
 
     def __init__(self, app=None):
         self.app = app
@@ -63,7 +63,7 @@ class AuthManager:
         # Configure Flask-Login
         self.login_manager.init_app(app)
         self.login_manager.login_view = 'login'
-        self.login_manager.login_message = 'Please log in to access the CyberBlueSOC Portal.'
+        self.login_manager.login_message = 'Please log in to access the BlackPerl_Onyx_ShieldSOC Portal.'
         self.login_manager.login_message_category = 'info'
 
         # User loader callback

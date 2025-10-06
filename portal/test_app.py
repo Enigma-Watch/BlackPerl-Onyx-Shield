@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return jsonify({"message": "CyberBlueBox Portal is working!", "status": "success"})
+    return jsonify({"message": "BlackPerl_Onyx_ShieldBox Portal is working!", "status": "success"})
 
 @app.route('/health')
 def health():

@@ -374,7 +374,7 @@ elif [ "$CAPTURE_LIVE" = true ]; then
         nslookup stackoverflow.com > /dev/null 2>&1 &
         
         # Additional HTTP patterns
-        curl -s -H "User-Agent: CyberBlue-SOC-Test" http://httpbin.org/user-agent > /dev/null 2>&1 &
+        curl -s -H "User-Agent: BlackPerl_Onyx_Shield-SOC-Test" http://httpbin.org/user-agent > /dev/null 2>&1 &
         curl -s http://httpbin.org/headers > /dev/null 2>&1 &
         
         # Wait for requests to complete
@@ -443,7 +443,7 @@ fi
 
 # Step 5: Create Arkime admin user with verification
 echo "👤 Step 5: Creating Arkime admin user..."
-sudo docker exec arkime /opt/arkime/bin/arkime_add_user.sh admin "CyberBlue Admin" admin --admin 2>/dev/null || echo "Admin user ready"
+sudo docker exec arkime /opt/arkime/bin/arkime_add_user.sh admin "BlackPerl_Onyx_Shield Admin" admin --admin 2>/dev/null || echo "Admin user ready"
 
 # Step 6: Restart Arkime services
 echo "🔄 Step 6: Restarting Arkime services..."

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Dynamic Network Interface Detection Script for CyberBlueSOC
+# Dynamic Network Interface Detection Script for BlackPerl_Onyx_ShieldSOC
 # This script automatically detects the primary network interface and updates the configuration
 
 echo "🔍 Detecting primary network interface..."
@@ -16,7 +16,7 @@ fi
 echo "✅ Detected primary interface: $DEFAULT_INTERFACE"
 
 # Update the .env file with the detected interface
-ENV_FILE="/home/ubuntu/CyberBlueSOC/.env"
+ENV_FILE="/home/ubuntu/BlackPerl_Onyx_ShieldSOC/.env"
 
 if [ -f "$ENV_FILE" ]; then
     echo "📝 Updating $ENV_FILE with detected interface..."

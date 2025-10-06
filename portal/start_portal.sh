@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "🚀 Starting CyberBlueBox Portal..."
+echo "🚀 Starting BlackPerl_Onyx_ShieldBox Portal..."
 
 # Check if we're in the right directory
 if [ ! -f "app.py" ]; then

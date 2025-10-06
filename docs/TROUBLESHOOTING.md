@@ -1,6 +1,6 @@
-# 🔧 CyberBlue Troubleshooting Guide
+# 🔧 BlackPerl_Onyx_Shield Troubleshooting Guide
 
-Comprehensive troubleshooting guide for common issues in CyberBlue deployments.
+Comprehensive troubleshooting guide for common issues in BlackPerl_Onyx_Shield deployments.
 
 ---
 
@@ -10,7 +10,7 @@ Comprehensive troubleshooting guide for common issues in CyberBlue deployments.
 ```bash
 # Run this script to get overall system status
 #!/bin/bash
-echo "=== CyberBlue System Health Check ==="
+echo "=== BlackPerl_Onyx_Shield System Health Check ==="
 echo
 echo "1. Docker Status:"
 systemctl is-active docker
@@ -384,7 +384,7 @@ mkdir -p ssl
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
   -keyout ssl/key.pem \
   -out ssl/cert.pem \
-  -subj "/C=US/ST=State/L=City/O=CyberBlue/CN=localhost"
+  -subj "/C=US/ST=State/L=City/O=BlackPerl_Onyx_Shield/CN=localhost"
 ```
 
 ### Authentication Problems

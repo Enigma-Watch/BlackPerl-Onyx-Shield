@@ -1,5 +1,5 @@
 ================================================================================
-  CyberBlue Fleet Osquery Agent - Windows Installation Instructions
+  BlackPerl_Onyx_Shield Fleet Osquery Agent - Windows Installation Instructions
   Fleet Server: {{SERVER_IP}}:7007
 ================================================================================
 
@@ -61,6 +61,6 @@ IMPORTANT NOTES:
   - TLS certificate verification is disabled for lab use
 
 ================================================================================
-For support: Check CyberBlue documentation or Fleet docs at fleetdm.com/docs
+For support: Check BlackPerl_Onyx_Shield documentation or Fleet docs at fleetdm.com/docs
 ================================================================================
 

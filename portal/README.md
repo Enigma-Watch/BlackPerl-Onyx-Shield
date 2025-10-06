@@ -1,6 +1,6 @@
-# 🛡️ CyberBlueBox Portal
+# 🛡️ BlackPerl_Onyx_ShieldBox Portal
 
-A beautiful, modern web portal that provides centralized access to all CyberBlueBox security tools with comprehensive changelog functionality.
+A beautiful, modern web portal that provides centralized access to all BlackPerl_Onyx_ShieldBox security tools with comprehensive changelog functionality.
 
 ## 🚀 Features
 
@@ -43,7 +43,7 @@ A beautiful, modern web portal that provides centralized access to all CyberBlue
 
 ### Option 1: Using Docker Compose (Recommended)
 
-The portal is automatically included in the main CyberBlueBox docker-compose.yml:
+The portal is automatically included in the main BlackPerl_Onyx_ShieldBox docker-compose.yml:
 
 ```bash
 # Start all services including the portal

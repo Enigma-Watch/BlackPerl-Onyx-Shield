@@ -1,5 +1,5 @@
 #!/bin/bash
-# CyberBlue Velociraptor Agent Installation Script for macOS
+# BlackPerl_Onyx_Shield Velociraptor Agent Installation Script for macOS
 # Generated for server: {{SERVER_IP}}
 # This script must be run as root or with sudo
 
@@ -22,7 +22,7 @@ PLIST_FILE="/Library/LaunchDaemons/${PLIST_NAME}.plist"
 VELOCI_BIN="$INSTALL_DIR/velociraptor"
 
 echo -e "${CYAN}========================================${NC}"
-echo -e "${CYAN}CyberBlue Velociraptor Agent Installer${NC}"
+echo -e "${CYAN}BlackPerl_Onyx_Shield Velociraptor Agent Installer${NC}"
 echo -e "${CYAN}Server: ${SERVER_IP}:8000${NC}"
 echo -e "${CYAN}========================================${NC}"
 echo ""

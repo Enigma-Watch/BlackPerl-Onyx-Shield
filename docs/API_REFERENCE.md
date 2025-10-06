@@ -1,12 +1,12 @@
-# 🔌 CyberBlue Portal API Reference
+# 🔌 BlackPerl_Onyx_Shield Portal API Reference
 
-Complete API documentation for the CyberBlue Portal backend system.
+Complete API documentation for the BlackPerl_Onyx_Shield Portal backend system.
 
 ---
 
 ## 🎯 Overview
 
-The CyberBlue Portal provides a RESTful API for managing containers, monitoring system status, and integrating with external tools. All endpoints return JSON responses and support CORS for web integration.
+The BlackPerl_Onyx_Shield Portal provides a RESTful API for managing containers, monitoring system status, and integrating with external tools. All endpoints return JSON responses and support CORS for web integration.
 
 ### Base URL
 ```
@@ -60,7 +60,7 @@ Simple health check endpoint.
 ## 🐳 **Container Management Endpoints**
 
 ### GET /api/containers
-List all CyberBlue containers with status information.
+List all BlackPerl_Onyx_Shield containers with status information.
 
 **Query Parameters:**
 - `status` (optional): Filter by status (`running`, `stopped`, `restarting`)
@@ -394,7 +394,7 @@ Pull latest Docker images for all services.
 ```
 
 ### POST /api/deploy/restart-all
-Restart all CyberBlue services.
+Restart all BlackPerl_Onyx_Shield services.
 
 **Request Body (optional):**
 ```json
@@ -565,7 +565,7 @@ Regenerate SSL certificates for all services.
 import requests
 import json
 
-class CyberBlueAPI:
+class BlackPerl_Onyx_ShieldAPI:
     def __init__(self, base_url):
         self.base_url = base_url
         
@@ -582,14 +582,14 @@ class CyberBlueAPI:
         return response.json()
 
 # Usage
-api = CyberBlueAPI("http://10.0.0.40:5500")
+api = BlackPerl_Onyx_ShieldAPI("http://10.0.0.40:5500")
 containers = api.get_containers()
 metrics = api.get_metrics()
 ```
 
 ### JavaScript Client Example
 ```javascript
-class CyberBlueAPI {
+class BlackPerl_Onyx_ShieldAPI {
     constructor(baseUrl) {
         this.baseUrl = baseUrl;
     }
@@ -613,7 +613,7 @@ class CyberBlueAPI {
 }
 
 // Usage
-const api = new CyberBlueAPI('http://10.0.0.40:5500');
+const api = new BlackPerl_Onyx_ShieldAPI('http://10.0.0.40:5500');
 api.getContainers().then(containers => console.log(containers));
 ```
 
@@ -672,7 +672,7 @@ curl -X GET "http://10.0.0.40:5500/api/search/containers?q=wazuh&status=running"
 
 ## 📚 **SDK Development**
 
-The CyberBlue Portal API is designed to be easily integrated into monitoring tools, automation scripts, and third-party applications. Consider developing SDKs for:
+The BlackPerl_Onyx_Shield Portal API is designed to be easily integrated into monitoring tools, automation scripts, and third-party applications. Consider developing SDKs for:
 
 - **Python**: For automation and monitoring scripts
 - **Go**: For high-performance integrations

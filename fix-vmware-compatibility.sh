@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# VMware Compatibility Fix Script for CyberBlue SOC
+# VMware Compatibility Fix Script for BlackPerl_Onyx_Shield SOC
 # This script resolves Docker Compose compatibility issues on VMware VMs
 
 set -e
@@ -248,7 +248,7 @@ test_docker_setup() {
 
 # Main execution
 main() {
-    print_header "VMware Compatibility Fix for CyberBlue SOC"
+    print_header "VMware Compatibility Fix for BlackPerl_Onyx_Shield SOC"
     echo "This script fixes Docker Compose compatibility issues on VMware VMs"
     echo ""
     

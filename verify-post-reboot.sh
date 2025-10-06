@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Post-Reboot Verification Script for CyberBlue SOC
+# Post-Reboot Verification Script for BlackPerl_Onyx_Shield SOC
 # This script verifies all services are running properly after system reboot
 
 set -e
@@ -17,7 +17,7 @@ print_error() { echo -e "${RED}❌${NC} $1"; }
 print_warning() { echo -e "${YELLOW}⚠️${NC} $1"; }
 print_info() { echo -e "${BLUE}ℹ️${NC} $1"; }
 
-echo "🔍 CyberBlue SOC Post-Reboot Verification"
+echo "🔍 BlackPerl_Onyx_Shield SOC Post-Reboot Verification"
 echo "========================================"
 echo ""
 
@@ -59,7 +59,7 @@ fi
 
 # Check ALL services that should be running
 echo ""
-echo "🎯 Checking ALL CyberBlue SOC Services..."
+echo "🎯 Checking ALL BlackPerl_Onyx_Shield SOC Services..."
 all_services=(
     "arkime" "caldera" "cortex" "cyber-blue-portal" "cyberchef" 
     "elasticsearch" "evebox" "fleet-mysql" "fleet-redis" "fleet-server"
@@ -150,7 +150,7 @@ echo ""
 
 # 6. Final Status
 if [ "$accessible_count" -ge 4 ] && [ "$RUNNING_CONTAINERS" -ge 20 ]; then
-    print_status "🎉 CyberBlue SOC post-reboot verification PASSED!"
+    print_status "🎉 BlackPerl_Onyx_Shield SOC post-reboot verification PASSED!"
     print_info "All critical services should be accessible within 2-3 minutes"
 else
     print_warning "⏳ System is still starting up - wait 2-3 minutes and run this script again"

@@ -1,5 +1,5 @@
 ================================================================================
-  CyberBlue Velociraptor Agent - macOS Installation Instructions
+  BlackPerl_Onyx_Shield Velociraptor Agent - macOS Installation Instructions
   Server: {{SERVER_IP}}:8000
 ================================================================================
 
@@ -82,6 +82,6 @@ NOTE:
   - This package includes the correct binary for your Mac (Intel or Apple Silicon)
 
 ================================================================================
-For support: Check CyberBlue documentation or Velociraptor docs
+For support: Check BlackPerl_Onyx_Shield documentation or Velociraptor docs
 ================================================================================
 

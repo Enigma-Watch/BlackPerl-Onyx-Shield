@@ -1,6 +1,6 @@
 <!--
   Wazuh Agent Configuration
-  Auto-generated for CyberBlue server: {{MANAGER_IP}}
+  Auto-generated for BlackPerl_Onyx_Shield server: {{MANAGER_IP}}
 -->
 
 <ossec_config>

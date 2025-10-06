@@ -1,5 +1,5 @@
 ================================================================================
-  CyberBlue Fleet Osquery Agent - Linux (Ubuntu/Debian) Installation
+  BlackPerl_Onyx_Shield Fleet Osquery Agent - Linux (Ubuntu/Debian) Installation
   Fleet Server: {{SERVER_IP}}:7007
 ================================================================================
 
@@ -59,6 +59,6 @@ TROUBLESHOOTING:
   - Test connectivity: curl http://{{SERVER_IP}}:7007
 
 ================================================================================
-For support: Check CyberBlue or Fleet documentation
+For support: Check BlackPerl_Onyx_Shield or Fleet documentation
 ================================================================================
 

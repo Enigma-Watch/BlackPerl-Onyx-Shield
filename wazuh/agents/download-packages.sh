@@ -1,7 +1,7 @@
 #!/bin/bash
-# CyberBlue - Download Wazuh Agent Packages
+# BlackPerl_Onyx_Shield - Download Wazuh Agent Packages
 # This script downloads official Wazuh agent packages for agent deployment
-# Run this during CyberBlue installation
+# Run this during BlackPerl_Onyx_Shield installation
 # Works with any user on any machine
 
 set -e
@@ -60,7 +60,7 @@ if [ -n "$SUDO_USER" ] && [ "$SUDO_USER" != "root" ]; then
     echo "    ✓ Ownership set to $REAL_USER:$REAL_GROUP"
 elif [ "$(id -u)" = "0" ]; then
     # Running as root directly (no SUDO_USER) - find the actual install user
-    # Get the owner of the parent CyberBlue directory (works for ubuntu, cb, or any user)
+    # Get the owner of the parent BlackPerl_Onyx_Shield directory (works for ubuntu, cb, or any user)
     CYBERBLUE_DIR="$(dirname "$(dirname "$(dirname "$SCRIPT_DIR")")")"
     REAL_USER=$(stat -c '%U' "$CYBERBLUE_DIR" 2>/dev/null || stat -f '%Su' "$CYBERBLUE_DIR" 2>/dev/null || echo "ubuntu")
     REAL_GROUP=$(stat -c '%G' "$CYBERBLUE_DIR" 2>/dev/null || stat -f '%Sg' "$CYBERBLUE_DIR" 2>/dev/null || echo "$REAL_USER")

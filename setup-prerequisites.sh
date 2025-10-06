@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # ============================================================================
-# CyberBlue SOC Prerequisites Setup Script
+# BlackPerl_Onyx_Shield SOC Prerequisites Setup Script
 # ============================================================================
-# Complete prerequisites installation for CyberBlue SOC Platform
+# Complete prerequisites installation for BlackPerl_Onyx_Shield SOC Platform
 # Run this entire block on any Ubuntu system (AWS, VMware, VirtualBox, bare metal)
 #
 # Usage: ./setup-prerequisites.sh [OPTIONS]
@@ -33,10 +33,10 @@ while [[ $# -gt 0 ]]; do
             shift
             ;;
         --help)
-            echo -e "${BLUE}CyberBlue SOC Prerequisites Setup Script${NC}"
+            echo -e "${BLUE}BlackPerl_Onyx_Shield SOC Prerequisites Setup Script${NC}"
             echo "============================================"
             echo ""
-            echo "This script installs all prerequisites for CyberBlue SOC Platform:"
+            echo "This script installs all prerequisites for BlackPerl_Onyx_Shield SOC Platform:"
             echo "• Docker CE (latest)"
             echo "• Docker Compose (latest)"
             echo "• System optimizations"
@@ -174,7 +174,7 @@ done
 
 if [ ${#CONFLICTS[@]} -gt 0 ]; then
     echo -e "${YELLOW}⚠️ WARNING: The following ports are already in use: ${CONFLICTS[*]}${NC}"
-    echo "   These may cause conflicts during CyberBlue deployment"
+    echo "   These may cause conflicts during BlackPerl_Onyx_Shield deployment"
     echo "   Consider stopping services using these ports or rebooting if needed"
 else
     echo -e "${GREEN}✅ All required ports are available${NC}"
@@ -200,7 +200,7 @@ if docker ps >/dev/null 2>&1; then
     echo -e "${GREEN}✅ Docker daemon access confirmed - no logout required!${NC}"
     # Test Docker networking capability
     if docker network ls >/dev/null 2>&1; then
-        echo -e "${GREEN}✅ Docker networking confirmed - ready for CyberBlue deployment!${NC}"
+        echo -e "${GREEN}✅ Docker networking confirmed - ready for BlackPerl_Onyx_Shield deployment!${NC}"
     else
         echo -e "${YELLOW}⚠️ Docker networking issue detected - may need system reboot${NC}"
     fi
@@ -213,12 +213,12 @@ fi
 echo ""
 echo -e "${GREEN}🎉 ============================================${NC}"
 echo -e "${GREEN}✅ Prerequisites setup complete!${NC}"
-echo -e "${GREEN}🚀 Ready to clone and deploy CyberBlue SOC${NC}"
+echo -e "${GREEN}🚀 Ready to clone and deploy BlackPerl_Onyx_Shield SOC${NC}"
 echo -e "${GREEN}============================================${NC}"
 echo ""
 echo -e "${CYAN}📋 Next Steps:${NC}"
-echo "1. Clone CyberBlue: git clone https://github.com/CyberBlue0/CyberBlue.git"
-echo "2. Enter directory: cd CyberBlue"
+echo "1. Clone BlackPerl_Onyx_Shield: git clone https://github.com/BlackPerl_Onyx_Shield0/BlackPerl_Onyx_Shield.git"
+echo "2. Enter directory: cd BlackPerl_Onyx_Shield"
 echo "3. Run installation: ./cyberblue_init.sh"
 echo ""
 echo -e "${YELLOW}💡 Note: If Docker commands still require sudo, logout and login again${NC}"

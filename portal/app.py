@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CyberBlueSOC Portal - Secure Python Flask Backend
+BlackPerl_Onyx_ShieldSOC Portal - Secure Python Flask Backend
 Central access point for all security tools with authentication and HTTPS
 """
 
@@ -636,20 +636,20 @@ def force_start_system():
     try:
         # Detect the project directory dynamically
         def find_project_directory():
-            """Find the CyberBlue project directory dynamically"""
+            """Find the BlackPerl_Onyx_Shield project directory dynamically"""
             # Since we're running in a container, we need to check paths on the host system
-            # We know the most likely location is /home/ubuntu/CyberBlue
+            # We know the most likely location is /home/ubuntu/BlackPerl_Onyx_Shield
             host_possible_paths = [
-                '/home/ubuntu/CyberBlue',
-                '/opt/CyberBlue',
-                '/root/CyberBlue',
-                '/home/*/CyberBlue',  # Wildcard for different users
+                '/home/ubuntu/BlackPerl_Onyx_Shield',
+                '/opt/BlackPerl_Onyx_Shield',
+                '/root/BlackPerl_Onyx_Shield',
+                '/home/*/BlackPerl_Onyx_Shield',  # Wildcard for different users
             ]
 
             # First, try the most common location
-            default_path = '/home/ubuntu/CyberBlue'
+            default_path = '/home/ubuntu/BlackPerl_Onyx_Shield'
             logger.info(
-                f"Using default CyberBlue project directory: {default_path}")
+                f"Using default BlackPerl_Onyx_Shield project directory: {default_path}")
             return default_path
 
         project_dir = find_project_directory()
@@ -2653,7 +2653,7 @@ def sync_misp_feeds():
 
 
 if __name__ == '__main__':
-    logger.info(f"🚀 Starting CyberBlueBox Portal on port {PORT}")
+    logger.info(f"🚀 Starting BlackPerl_Onyx_ShieldBox Portal on port {PORT}")
     logger.info(f"📱 Access the portal at: http://localhost:{PORT}")
     logger.info(f"🔧 API endpoints available at: http://localhost:{PORT}/api/")
 
@@ -2661,7 +2661,7 @@ if __name__ == '__main__':
         # Log initial startup
         changelog_manager.add_entry(
             "system_startup",
-            "CyberBlueBox Portal started successfully with container monitoring",
+            "BlackPerl_Onyx_ShieldBox Portal started successfully with container monitoring",
             level="info"
         )
 
@@ -2695,9 +2695,9 @@ if __name__ == '__main__':
             app.run(host='0.0.0.0', port=PORT, debug=False, threaded=True)
 
     except KeyboardInterrupt:
-        logger.info("Shutting down CyberBlueBox Portal...")
+        logger.info("Shutting down BlackPerl_Onyx_ShieldBox Portal...")
         changelog_manager.add_entry(
-            "system_shutdown", "CyberBlueBox Portal shut down gracefully")
+            "system_shutdown", "BlackPerl_Onyx_ShieldBox Portal shut down gracefully")
     except Exception as e:
         logger.error(f"Error starting server: {e}")
         changelog_manager.add_entry(

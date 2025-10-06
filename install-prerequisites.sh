@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # ============================================================================
-# CyberBlue SOC - Prerequisites Installation Script
+# BlackPerl_Onyx_Shield SOC - Prerequisites Installation Script
 # ============================================================================
-# This script installs all required prerequisites for CyberBlue SOC platform
+# This script installs all required prerequisites for BlackPerl_Onyx_Shield SOC platform
 # including Docker, Docker Compose, and system optimizations.
 #
 # Usage: ./install-prerequisites.sh [OPTIONS]
@@ -53,7 +53,7 @@ parse_args() {
 }
 
 show_help() {
-    echo -e "${BLUE}🚀 CyberBlue SOC - Prerequisites Installation Script${NC}"
+    echo -e "${BLUE}🚀 BlackPerl_Onyx_Shield SOC - Prerequisites Installation Script${NC}"
     echo ""
     echo "Usage: $0 [OPTIONS]"
     echo ""
@@ -118,7 +118,7 @@ confirm_installation() {
         return 0
     fi
 
-    echo -e "${YELLOW}🚀 CyberBlue SOC Prerequisites Installation${NC}"
+    echo -e "${YELLOW}🚀 BlackPerl_Onyx_Shield SOC Prerequisites Installation${NC}"
     echo ""
     echo "This script will install and configure:"
     echo "  🐳 Docker CE (latest stable)"
@@ -356,7 +356,7 @@ check_port_conflicts() {
     
     if [ ${#conflicts[@]} -gt 0 ]; then
         log_warn "The following ports are already in use: ${conflicts[*]}"
-        log_warn "These may cause conflicts during CyberBlue deployment"
+        log_warn "These may cause conflicts during BlackPerl_Onyx_Shield deployment"
         log_warn "Consider stopping services using these ports or rebooting if needed"
     else
         log "All required ports are available"
@@ -373,7 +373,7 @@ test_docker_access() {
         
         # Test Docker networking capability
         if docker network ls >/dev/null 2>&1; then
-            log "Docker networking confirmed - ready for CyberBlue deployment!"
+            log "Docker networking confirmed - ready for BlackPerl_Onyx_Shield deployment!"
         else
             log_warn "Docker networking issue detected - may need system reboot"
         fi
@@ -439,7 +439,7 @@ verify_installation() {
 main_installation() {
     echo -e "${BLUE}"
     echo "🚀 =================================="
-    echo "   CyberBlue SOC Prerequisites"
+    echo "   BlackPerl_Onyx_Shield SOC Prerequisites"
     echo "🚀 =================================="
     echo -e "${NC}"
     
@@ -475,7 +475,7 @@ main_installation() {
         echo "🎉 ==================================${NC}"
         echo ""
         echo -e "${CYAN}📋 Next Steps:${NC}"
-        echo "1. Clone CyberBlue repository (if not already done)"
+        echo "1. Clone BlackPerl_Onyx_Shield repository (if not already done)"
         echo "2. Run: ${YELLOW}./cyberblue_init.sh${NC}"
         echo ""
         echo -e "${YELLOW}💡 Note: ${NC}If Docker commands still require sudo, logout and login again."

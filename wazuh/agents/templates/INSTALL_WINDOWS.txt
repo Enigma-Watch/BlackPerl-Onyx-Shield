@@ -1,5 +1,5 @@
 ================================================================================
-  CyberBlue Wazuh Agent - Windows Installation Instructions
+  BlackPerl_Onyx_Shield Wazuh Agent - Windows Installation Instructions
   Manager Server: {{MANAGER_IP}}:1514
 ================================================================================
 
@@ -61,6 +61,6 @@ IMPORTANT NOTES:
   - Config file: C:\Program Files (x86)\ossec-agent\ossec.conf
 
 ================================================================================
-For support: Check CyberBlue documentation or Wazuh docs at docs.wazuh.com
+For support: Check BlackPerl_Onyx_Shield documentation or Wazuh docs at docs.wazuh.com
 ================================================================================
 

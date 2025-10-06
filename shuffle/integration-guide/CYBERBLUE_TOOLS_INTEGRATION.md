@@ -1,4 +1,4 @@
-# CyberBlue Tools Integration Guide for Shuffle
+# BlackPerl_Onyx_Shield Tools Integration Guide for Shuffle
 
 ## 🔗 Quick Reference - All Tool Connections
 
