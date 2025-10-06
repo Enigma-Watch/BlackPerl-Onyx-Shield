@@ -50,7 +50,7 @@ class AuthManager:
         self.login_manager = LoginManager()
         self.users_file = 'users.json'
         self.secret_key = os.environ.get(
-            'SECRET_KEY', 'cyberblue-secret-key-change-in-production')
+            'SECRET_KEY', 'blackperl_onyx_shield-secret-key-change-in-production')
         self.users = {}
 
         if app:
@@ -117,14 +117,14 @@ class AuthManager:
 
     def create_default_admin(self):
         """Create default admin user"""
-        admin_password = os.environ.get('ADMIN_PASSWORD', 'cyberblue123')
+        admin_password = os.environ.get('ADMIN_PASSWORD', 'blackperl_onyx_shield123')
         password_hash = bcrypt.hashpw(admin_password.encode(
             'utf-8'), bcrypt.gensalt()).decode('utf-8')
 
         admin_user = User(
             id='admin',
             username='admin',
-            email='admin@cyberblue.local',
+            email='admin@blackperl_onyx_shield.local',
             role='admin',
             password_hash=password_hash
         )

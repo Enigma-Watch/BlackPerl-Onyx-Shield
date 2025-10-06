@@ -16,7 +16,7 @@ This guide provides detailed configuration instructions, best practices, and adv
 
 #### Basic Manager Configuration
 ```xml
-<!-- /opt/cyberblue/wazuh/config/wazuh_cluster/wazuh_manager.conf -->
+<!-- /opt/blackperl_onyx_shield/wazuh/config/wazuh_cluster/wazuh_manager.conf -->
 <ossec_config>
   <global>
     <jsonout_output>yes</jsonout_output>
@@ -25,8 +25,8 @@ This guide provides detailed configuration instructions, best practices, and adv
     <logall_json>no</logall_json>
     <email_notification>no</email_notification>
     <smtp_server>localhost</smtp_server>
-    <email_from>wazuh@cyberblue.local</email_from>
-    <email_to>admin@cyberblue.local</email_to>
+    <email_from>wazuh@blackperl_onyx_shield.local</email_from>
+    <email_to>admin@blackperl_onyx_shield.local</email_to>
     <hostname>wazuh-manager</hostname>
     <email_maxperhour>12</email_maxperhour>
   </global>
@@ -51,7 +51,7 @@ This guide provides detailed configuration instructions, best practices, and adv
 
 #### Custom Rules Configuration
 ```xml
-<!-- /opt/cyberblue/wazuh/config/rules/local_rules.xml -->
+<!-- /opt/blackperl_onyx_shield/wazuh/config/rules/local_rules.xml -->
 <group name="local,attack,">
   <!-- SSH Brute Force Detection -->
   <rule id="100001" level="10" frequency="8" timeframe="120">
@@ -167,7 +167,7 @@ This guide provides detailed configuration instructions, best practices, and adv
 
 #### Main Configuration File
 ```yaml
-# /opt/cyberblue/suricata/suricata.yaml
+# /opt/blackperl_onyx_shield/suricata/suricata.yaml
 %YAML 1.1
 ---
 
@@ -581,7 +581,7 @@ action-order:
 
 #### Custom Suricata Rules
 ```bash
-# /opt/cyberblue/suricata/rules/local.rules
+# /opt/blackperl_onyx_shield/suricata/rules/local.rules
 
 # Custom BlackPerl_Onyx_Shield Rules
 
@@ -624,7 +624,7 @@ alert http any any -> any any (msg:"Possible web shell upload"; flow:established
 
 #### Advanced MISP Settings
 ```php
-// /opt/cyberblue/configs/config.php (MISP configuration)
+// /opt/blackperl_onyx_shield/configs/config.php (MISP configuration)
 <?php
 $config = array (
   'debug' => 0,
@@ -633,7 +633,7 @@ $config = array (
     'live' => true,
     'language' => 'eng',
     'uuid' => 'YOUR_MISP_UUID',
-    'contact' => 'admin@cyberblue.local',
+    'contact' => 'admin@blackperl_onyx_shield.local',
     'cveurl' => 'https://cve.circl.lu/cve/',
     'disablerestalert' => false,
     'showCorrelationsOnIndex' => true,
@@ -685,10 +685,10 @@ $config = array (
     'incoming_tags_disabled_by_default' => false,
     'footermidleft' => 'BlackPerl_Onyx_Shield',
     'footermidright' => 'Threat Intelligence Platform',
-    'homepage' => 'https://cyberblue.local'
+    'homepage' => 'https://blackperl_onyx_shield.local'
   ),
   'GnuPG' => array(
-    'email' => 'admin@cyberblue.local',
+    'email' => 'admin@blackperl_onyx_shield.local',
     'homedir' => '/var/www/MISP/.gnupg',
     'password' => '',
     'bodyonlyencrypted' => false,
@@ -697,7 +697,7 @@ $config = array (
   ),
   'SMIME' => array(
     'enabled' => false,
-    'email' => 'admin@cyberblue.local',
+    'email' => 'admin@blackperl_onyx_shield.local',
     'cert_public_sign' => '/var/www/MISP/.smime/email.pem',
     'key_sign' => '/var/www/MISP/.smime/email.key',
     'password' => ''
@@ -858,7 +858,7 @@ curl -k -X POST "$MISP_URL/feeds/add" \
 
 #### Server Configuration
 ```yaml
-# /opt/cyberblue/velociraptor/server.config.yaml
+# /opt/blackperl_onyx_shield/velociraptor/server.config.yaml
 version:
   name: velociraptor
   version: 0.6.7
@@ -936,7 +936,7 @@ Writeback:
     -----END PRIVATE KEY-----
 
 Mail:
-  from: velociraptor@cyberblue.local
+  from: velociraptor@blackperl_onyx_shield.local
   server: localhost
   server_port: 25
 
@@ -960,7 +960,7 @@ api_config:
 
 #### Custom Artifacts
 ```yaml
-# /opt/cyberblue/velociraptor/artifacts/BlackPerl_Onyx_Shield.Suspicious.PowerShell.yaml
+# /opt/blackperl_onyx_shield/velociraptor/artifacts/BlackPerl_Onyx_Shield.Suspicious.PowerShell.yaml
 name: BlackPerl_Onyx_Shield.Suspicious.PowerShell
 description: |
   Collect suspicious PowerShell activity from Windows Event Logs
@@ -1024,7 +1024,7 @@ reports:
 
 #### Configuration File
 ```ini
-# /opt/cyberblue/arkime/config.ini
+# /opt/blackperl_onyx_shield/arkime/config.ini
 [default]
 elasticsearch=http://os01:9200
 rotateIndex=daily
@@ -1171,7 +1171,7 @@ dontSaveIPs=10.0.0.0/8;192.168.0.0/16;172.16.0.0/12;127.0.0.0/8
 
 #### Application Configuration
 ```hocon
-# /opt/cyberblue/thehive/application.conf
+# /opt/blackperl_onyx_shield/thehive/application.conf
 play.http.secret.key="YOUR_SECRET_KEY_HERE"
 
 play.http.context="/thehive/"
@@ -1280,7 +1280,7 @@ notification.webhook.endpoints = [
 
 #### Custom Recipe Configuration
 ```javascript
-// /opt/cyberblue/cyberchef/custom-operations.js
+// /opt/blackperl_onyx_shield/cyberchef/custom-operations.js
 
 // Custom operation for BlackPerl_Onyx_Shield log parsing
 const BlackPerl_Onyx_ShieldLogParser = {
@@ -1375,7 +1375,7 @@ services:
   monitoring-dashboard:
     image: grafana/grafana:latest
     environment:
-      - GF_SECURITY_ADMIN_PASSWORD=cyberblue123
+      - GF_SECURITY_ADMIN_PASSWORD=blackperl_onyx_shield123
       - GF_INSTALL_PLUGINS=grafana-clock-panel,grafana-simple-json-datasource
     volumes:
       - grafana-storage:/var/lib/grafana
@@ -1419,7 +1419,7 @@ networks:
 ### Wazuh to MISP Integration
 ```bash
 #!/bin/bash
-# /opt/cyberblue/scripts/wazuh-to-misp.py
+# /opt/blackperl_onyx_shield/scripts/wazuh-to-misp.py
 
 import json
 import requests
@@ -1537,7 +1537,7 @@ if __name__ == "__main__":
 # scripts/backup-configs.sh
 
 # Initialize git repository for configuration tracking
-cd /opt/cyberblue
+cd /opt/blackperl_onyx_shield
 git init
 git add .env* docker-compose.yml configs/ ssl/
 git commit -m "Initial BlackPerl_Onyx_Shield configuration backup"
@@ -1545,7 +1545,7 @@ git commit -m "Initial BlackPerl_Onyx_Shield configuration backup"
 # Create configuration versioning script
 cat > scripts/version-config.sh << 'EOF'
 #!/bin/bash
-cd /opt/cyberblue
+cd /opt/blackperl_onyx_shield
 git add -A
 git commit -m "Configuration update: $(date)"
 git tag "config-$(date +%Y%m%d-%H%M%S)"

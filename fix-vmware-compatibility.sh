@@ -179,8 +179,8 @@ fix_volume_permissions() {
     print_info "Creating required directories with proper permissions..."
     
     # Create common directories that may cause issues
-    sudo mkdir -p /opt/cyberblue/{suricata,arkime,wazuh,logs} 2>/dev/null || true
-    sudo chown -R $USER:$USER /opt/cyberblue 2>/dev/null || true
+    sudo mkdir -p /opt/blackperl_onyx_shield/{suricata,arkime,wazuh,logs} 2>/dev/null || true
+    sudo chown -R $USER:$USER /opt/blackperl_onyx_shield 2>/dev/null || true
     
     # Fix local directory permissions
     sudo chown -R $USER:$USER . 2>/dev/null || true
@@ -326,7 +326,7 @@ main() {
     # Final verification
     print_header "Compatibility Fix Complete"
     print_status "VMware compatibility fixes applied successfully!"
-    print_info "You can now run: ./cyberblue_init.sh"
+    print_info "You can now run: ./blackperl_onyx_shield_init.sh"
     
     echo ""
     print_info "If you still encounter issues:"

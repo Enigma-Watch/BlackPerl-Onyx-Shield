@@ -18,12 +18,12 @@ else
 fi
 
 # Step 2: Create full local.yml with all required fields
-echo "[+] Creating custom local.yml with 'cyberblue' passwords..."
+echo "[+] Creating custom local.yml with 'blackperl_onyx_shield' passwords..."
 mkdir -p "$INSTALL_DIR/conf"
 cat > "$LOCAL_YML" <<EOF
 ability_refresh: 60
-api_key_blue: cyberblue
-api_key_red: cyberblue
+api_key_blue: blackperl_onyx_shield
+api_key_red: blackperl_onyx_shield
 app.contact.dns.domain: mycaldera.caldera
 app.contact.dns.socket: 0.0.0.0:8853
 app.contact.gist: ""
@@ -46,8 +46,8 @@ app.contact.tcp: 0.0.0.0:7010
 app.contact.udp: 0.0.0.0:7011
 app.contact.websocket: 0.0.0.0:7012
 objects.planners.default: atomic
-crypt_salt: cyberblue-salt
-encryption_key: cyberblue-key
+crypt_salt: blackperl_onyx_shield-salt
+encryption_key: blackperl_onyx_shield-key
 exfil_dir: /tmp/caldera
 reachable_host_traits:
   - remote.host.fqdn
@@ -79,10 +79,10 @@ requirements:
     version: 3.9.0
 users:
   red:
-    red: cyberblue
-    admin: cyberblue
+    red: blackperl_onyx_shield
+    admin: blackperl_onyx_shield
   blue:
-    blue: cyberblue
+    blue: blackperl_onyx_shield
 EOF
 
 # Step 3: Build and run Caldera using docker-compose

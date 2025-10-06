@@ -301,7 +301,7 @@ cat /proc/net/dev
 ## 🔄 **Integration with BlackPerl_Onyx_Shield Platform**
 
 ### **Automatic Integration**
-- **cyberblue_init.sh** automatically calls `fix-arkime.sh --live-30s`
+- **blackperl_onyx_shield_init.sh** automatically calls `fix-arkime.sh --live-30s`
 - **30-second live capture** during platform initialization
 - **Real network data** available immediately after deployment
 

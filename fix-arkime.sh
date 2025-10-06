@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Enhanced Arkime Fix & Initialization Script
-# Extracted and enhanced from cyberblue_init.sh
+# Extracted and enhanced from blackperl_onyx_shield_init.sh
 # This script provides comprehensive Arkime setup and troubleshooting
 
 set -e
@@ -383,7 +383,7 @@ elif [ "$CAPTURE_LIVE" = true ]; then
     
     # Enhanced traffic capture with better error handling
     if command -v tcpdump &> /dev/null; then
-        PCAP_FILE="./arkime/pcaps/cyberblue_sample_$(date +%Y%m%d_%H%M%S).pcap"
+        PCAP_FILE="./arkime/pcaps/blackperl_onyx_shield_sample_$(date +%Y%m%d_%H%M%S).pcap"
         echo "📦 Capturing network traffic to: $PCAP_FILE"
         timeout 15s sudo tcpdump -i "$SURICATA_IFACE" -w "$PCAP_FILE" -c 100 2>/dev/null || echo "Traffic capture completed"
         

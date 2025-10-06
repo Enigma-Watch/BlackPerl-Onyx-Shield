@@ -28,8 +28,8 @@ services:
       - ENABLE_HTTPS=true
       - SSL_CERT_PATH=/app/ssl/cert.pem
       - SSL_KEY_PATH=/app/ssl/key.pem
-      - SECRET_KEY=cyberblue-secure-secret-key-change-in-production
-      - ADMIN_PASSWORD=cyberblue123
+      - SECRET_KEY=blackperl_onyx_shield-secure-secret-key-change-in-production
+      - ADMIN_PASSWORD=blackperl_onyx_shield123
     restart: unless-stopped
     networks:
       - cyber-blue
@@ -66,7 +66,7 @@ services:
     network_mode: host
     environment:
       - CUSTOM_USER=admin
-      - PASSWORD=cyberblue
+      - PASSWORD=blackperl_onyx_shield
       - CUSTOM_PORT=7098 # Change HTTP port
       - CUSTOM_HTTPS_PORT=7099 # Optional: HTTPS port if needed
     volumes:
@@ -784,7 +784,7 @@ services:
     network_mode: "host"
     environment:
       - SKIPSYNC=true
-      - PASSWORD=cyberblue
+      - PASSWORD=blackperl_onyx_shield
       - TZ=Asia/Riyadh
       - GSAD_ARGS=--port=7014
     volumes:

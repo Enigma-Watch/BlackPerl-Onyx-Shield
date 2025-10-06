@@ -55,7 +55,7 @@ EOF
 VERIFICATION:
   - The agent should appear in Velociraptor server within 1-2 minutes
   - Access server GUI: https://{{SERVER_IP}}:7000
-  - Default credentials: admin / cyberblue
+  - Default credentials: admin / blackperl_onyx_shield
   - Look for this computer's hostname in the Client list
 
 TROUBLESHOOTING:

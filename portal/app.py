@@ -950,7 +950,7 @@ def get_tools():
             "protocols": ["https"],
             "credentials": {
                 "username": "admin",
-                "password": "cyberblue"
+                "password": "blackperl_onyx_shield"
             }
         },
         {
@@ -1091,7 +1091,7 @@ def get_tools():
             "protocols": ["https"],
             "credentials": {
                 "username": "admin",
-                "password": "cyberblue"
+                "password": "blackperl_onyx_shield"
             }
         },
         {
@@ -1116,7 +1116,7 @@ def get_tools():
             "protocols": ["https"],
             "credentials": {
                 "username": "admin",
-                "password": "cyberblue123"
+                "password": "blackperl_onyx_shield123"
             }
         }
     ]
@@ -2149,7 +2149,7 @@ Login: admin / admin
                     enrollment_secret = f.read().strip()
             else:
                 # Fallback default if file doesn't exist
-                enrollment_secret = 'cyberblue-fleet-default-secret'
+                enrollment_secret = 'blackperl_onyx_shield-fleet-default-secret'
                 logger.warning(
                     f"Fleet secret file not found, using default: {enrollment_secret}")
 

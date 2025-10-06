@@ -77,14 +77,14 @@ open http://localhost:8080
 
 ```bash
 # Build the Docker image
-docker build -t cyberbluebox-portal .
+docker build -t blackperl_onyx_shieldbox-portal .
 
 # Run the container
 docker run -d \
-  --name cyberbluebox-portal \
+  --name blackperl_onyx_shieldbox-portal \
   -p 8080:8080 \
   -v /var/run/docker.sock:/var/run/docker.sock:ro \
-  cyberbluebox-portal
+  blackperl_onyx_shieldbox-portal
 ```
 
 ## 🔧 Configuration
@@ -186,13 +186,13 @@ The portal uses CSS custom properties for easy theming. Key variables:
 ### Portal Not Loading
 ```bash
 # Check if container is running
-docker ps | grep cyberbluebox-portal
+docker ps | grep blackperl_onyx_shieldbox-portal
 
 # Check logs
-docker logs cyberbluebox-portal
+docker logs blackperl_onyx_shieldbox-portal
 
 # Restart the service
-docker-compose restart cyberbluebox-portal
+docker-compose restart blackperl_onyx_shieldbox-portal
 ```
 
 ### Tools Not Accessible
@@ -201,7 +201,7 @@ docker-compose restart cyberbluebox-portal
 docker-compose ps
 
 # Check port mappings
-docker-compose port cyberbluebox-portal 8080
+docker-compose port blackperl_onyx_shieldbox-portal 8080
 ```
 
 ### API Endpoints Not Working

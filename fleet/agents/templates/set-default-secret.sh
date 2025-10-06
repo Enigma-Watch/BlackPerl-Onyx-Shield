@@ -2,7 +2,7 @@
 # Set default Fleet enrollment secret for BlackPerl_Onyx_Shield
 # This runs during installation to create a known enrollment secret
 
-FLEET_SECRET="cyberblue-fleet-enrollment-secret-$(openssl rand -hex 8)"
+FLEET_SECRET="blackperl_onyx_shield-fleet-enrollment-secret-$(openssl rand -hex 8)"
 SECRET_FILE="/tmp/fleet-enrollment-secret.txt"
 
 echo "$FLEET_SECRET" > "$SECRET_FILE"

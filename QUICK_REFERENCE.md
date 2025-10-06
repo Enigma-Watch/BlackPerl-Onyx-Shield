@@ -11,28 +11,28 @@
 
 ### **Primary Portal (HTTPS)**
 - **URL**: `https://YOUR_IP:5443`
-- **Login**: `admin` / `cyberblue123`
+- **Login**: `admin` / `blackperl_onyx_shield123`
 - **Features**: Secure authentication, SSL encryption, real-time monitoring
 
 ### **Service Access Matrix**
 
 | Tool | URL | Credentials | Status | Purpose |
 |------|-----|-------------|--------|---------|
-| **BlackPerl_Onyx_Shield Portal** | `https://YOUR_IP:5443` | admin/cyberblue123 | ✅ HTTPS Auth | Central Management |
-| **Velociraptor** | `https://YOUR_IP:7000` | admin/cyberblue | ✅ HTTPS | Endpoint Forensics |
+| **BlackPerl_Onyx_Shield Portal** | `https://YOUR_IP:5443` | admin/blackperl_onyx_shield123 | ✅ HTTPS Auth | Central Management |
+| **Velociraptor** | `https://YOUR_IP:7000` | admin/blackperl_onyx_shield | ✅ HTTPS | Endpoint Forensics |
 | **Wazuh** | `https://YOUR_IP:7001` | admin/SecretPassword | ✅ HTTPS | SIEM Dashboard |
 | **Shuffle** | `https://YOUR_IP:7002` | admin/password | ✅ HTTPS | Security Automation |
 | **MISP** | `https://YOUR_IP:7003` | admin@admin.test/admin | ✅ HTTPS | Threat Intelligence |
 | **CyberChef** | `http://YOUR_IP:7004` | No Auth | ✅ HTTP | Data Analysis |
 | **TheHive** | `http://YOUR_IP:7005` | admin@thehive.local/secret | ✅ HTTP | Case Management |
-| **Cortex** | `http://YOUR_IP:7006` | admin/cyberblue123 | ✅ HTTP | Observable Analysis |
+| **Cortex** | `http://YOUR_IP:7006` | admin/blackperl_onyx_shield123 | ✅ HTTP | Observable Analysis |
 | **FleetDM** | `http://YOUR_IP:7007` | Setup Required | ✅ HTTP | Endpoint Management |
 | **Arkime** | `http://YOUR_IP:7008` | admin/admin | ✅ HTTP + Data | Network Analysis |
-| **Caldera** | `http://YOUR_IP:7009` | red:cyberblue, blue:cyberblue | ✅ HTTP | Adversary Emulation |
+| **Caldera** | `http://YOUR_IP:7009` | red:blackperl_onyx_shield, blue:blackperl_onyx_shield | ✅ HTTP | Adversary Emulation |
 | **EveBox** | `http://YOUR_IP:7015` | No Auth | ✅ HTTP + Events | Suricata Events |
-| **Wireshark** | `http://YOUR_IP:7011` | admin/cyberblue | ⚠️ GUI | Protocol Analysis |
+| **Wireshark** | `http://YOUR_IP:7011` | admin/blackperl_onyx_shield | ⚠️ GUI | Protocol Analysis |
 | **MITRE Navigator** | `http://YOUR_IP:7013` | No Auth | ✅ HTTP | ATT&CK Visualization |
-| **Portainer** | `https://YOUR_IP:9443` | admin/cyberblue123 | ✅ HTTPS | Container Management |
+| **Portainer** | `https://YOUR_IP:9443` | admin/blackperl_onyx_shield123 | ✅ HTTPS | Container Management |
 
 ---
 

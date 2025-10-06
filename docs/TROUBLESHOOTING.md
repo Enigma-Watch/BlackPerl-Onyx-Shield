@@ -163,7 +163,7 @@ curl -k https://localhost:55000/
    docker-compose stop wazuh.indexer wazuh.dashboard wazuh.manager
    
    # Remove volumes
-   docker volume rm cyberblue_wazuh-indexer-data
+   docker volume rm blackperl_onyx_shield_wazuh-indexer-data
    
    # Restart
    docker-compose up -d wazuh.indexer wazuh.manager wazuh.dashboard
@@ -422,7 +422,7 @@ if [ "$confirm" = "yes" ]; then
   docker system prune -f
   
   # Restart fresh
-  ./cyberblue_init.sh
+  ./blackperl_onyx_shield_init.sh
 fi
 ```
 
@@ -430,7 +430,7 @@ fi
 ```bash
 # Reset specific service (example: MISP)
 docker-compose stop misp-core misp-modules db redis
-docker volume rm cyberblue_mysql_data
+docker volume rm blackperl_onyx_shield_mysql_data
 docker-compose up -d db redis
 sleep 30
 docker-compose up -d misp-core misp-modules

@@ -2865,7 +2865,7 @@
         // Dynamic server IP detection
         function getServerIP() {
             // Check if user has overridden the IP address
-            const overrideIP = localStorage.getItem('cyberblue_override_ip');
+            const overrideIP = localStorage.getItem('blackperl_onyx_shield_override_ip');
             if (overrideIP && overrideIP.trim() !== '') {
                 return overrideIP.trim();
             }
@@ -2883,7 +2883,7 @@
             if (newIP !== null) {
                 if (newIP.trim() === '') {
                     // Clear override - use auto-detected
-                    localStorage.removeItem('cyberblue_override_ip');
+                    localStorage.removeItem('blackperl_onyx_shield_override_ip');
                     showNotification('Using auto-detected IP address', 'info');
                     // Update the IP display button
                     updateIPDisplay();
@@ -2895,7 +2895,7 @@
                     // Validate IP format (basic validation)
                     const ipPattern = /^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$|^[a-zA-Z0-9.-]+$/;
                     if (ipPattern.test(newIP.trim())) {
-                        localStorage.setItem('cyberblue_override_ip', newIP.trim());
+                        localStorage.setItem('blackperl_onyx_shield_override_ip', newIP.trim());
                         showNotification(`IP override set to: ${newIP.trim()}`, 'success');
                         // Update the IP display button
                         updateIPDisplay();
@@ -2933,7 +2933,7 @@
         // Update IP display button
         function updateIPDisplay() {
             const currentIP = getServerIP();
-            const overrideIP = localStorage.getItem('cyberblue_override_ip');
+            const overrideIP = localStorage.getItem('blackperl_onyx_shield_override_ip');
             const displayElement = document.getElementById('current-ip-display');
 
             if (displayElement) {
@@ -3836,8 +3836,8 @@
                         </div>
                         <div class="credentials-field">
                             <label>Password:</label>
-                            <span>cyberblue</span>
-                            <button class="copy-btn" onclick="copyToClipboard('cyberblue')">Copy</button>
+                            <span>blackperl_onyx_shield</span>
+                            <button class="copy-btn" onclick="copyToClipboard('blackperl_onyx_shield')">Copy</button>
                         </div>`;
                     break;
                 case 'portainer':
@@ -4986,7 +4986,7 @@
         // =======================================================================
 
         const CYBERBLUE_TOOLS = [
-            { name: 'Velociraptor', url: 'https://{{IP}}:7000', api: 'https://{{IP}}:7000/api/v1', user: 'admin', pass: 'cyberblue', category: 'DFIR', icon: 'fas fa-search', color: '#3b82f6' },
+            { name: 'Velociraptor', url: 'https://{{IP}}:7000', api: 'https://{{IP}}:7000/api/v1', user: 'admin', pass: 'blackperl_onyx_shield', category: 'DFIR', icon: 'fas fa-search', color: '#3b82f6' },
             { name: 'Wazuh', url: 'https://{{IP}}:7001', api: 'https://{{IP}}:55000', user: 'admin', pass: 'SecretPassword', category: 'SIEM', icon: 'fas fa-shield-alt', color: '#10b981' },
             { name: 'MISP', url: 'https://{{IP}}:7003', api: 'https://{{IP}}:7003/events', user: 'admin@admin.test', pass: 'admin', category: 'CTI', icon: 'fas fa-brain', color: '#8b5cf6' },
             { name: 'CyberChef', url: 'http://{{IP}}:7004', category: 'Utility', icon: 'fas fa-utensils', color: '#f59e0b' },
@@ -4997,7 +4997,7 @@
             { name: 'Caldera', url: 'http://{{IP}}:7009', api: 'http://{{IP}}:7009/api/v2', user: 'admin', pass: 'admin', category: 'Red Team', icon: 'fas fa-chess-king', color: '#dc2626' },
             { name: 'MITRE Navigator', url: 'http://{{IP}}:7013', category: 'CTI', icon: 'fas fa-sitemap', color: '#6366f1' },
             { name: 'Evebox', url: 'http://{{IP}}:7015', category: 'IDS', icon: 'fas fa-eye', color: '#ec4899' },
-            { name: 'Wireshark', url: 'https://{{IP}}:7099', user: 'admin', pass: 'cyberblue', category: 'Network', icon: 'fas fa-filter', color: '#0ea5e9' }
+            { name: 'Wireshark', url: 'https://{{IP}}:7099', user: 'admin', pass: 'blackperl_onyx_shield', category: 'Network', icon: 'fas fa-filter', color: '#0ea5e9' }
         ];
 
         function showShuffleIntegrations() {

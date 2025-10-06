@@ -1,5 +1,5 @@
 init:
-	sudo bash cyberblue_init.sh
+	sudo bash blackperl_onyx_shield_init.sh
 
 up:
 	sudo docker compose up -d

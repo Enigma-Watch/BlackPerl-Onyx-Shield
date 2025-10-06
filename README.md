@@ -20,7 +20,7 @@
 ### **🔴 CRITICAL WARNINGS - READ BEFORE INSTALLING:**
 
 - **🔴 NO SECURITY GUARANTEES** - No warranties, not suitable for processing real sensitive data or monitoring production systems
-- **🔴 DEFAULT CREDENTIALS** - All tools use well-known default passwords (admin/cyberblue, etc.)
+- **🔴 DEFAULT CREDENTIALS** - All tools use well-known default passwords (admin/blackperl_onyx_shield, etc.)
 - **🔴 NO AUTHENTICATION** - Portal has authentication removed for ease of lab access
 - **🔴 DEVELOPMENT BUILD** - This is beta software for learning purposes
 
@@ -157,8 +157,8 @@ BlackPerl_Onyx_Shield transforms Blue Team cybersecurity tool deployment into a 
 # Clone and install BlackPerl_Onyx_Shield 
 git clone https://github.com/CyberBlu3s/BlackPerl_Onyx_Shield.git
 cd BlackPerl_Onyx_Shield
-chmod +x cyberblue_install.sh
-./cyberblue_install.sh
+chmod +x blackperl_onyx_shield_install.sh
+./blackperl_onyx_shield_install.sh
 ```
 
 **That's it!** This will:
@@ -204,20 +204,20 @@ No authentication required - direct access
 ```
 
 **🛡️ Individual Tools (ports 7000-7099):**
-- **Velociraptor**: https://YOUR_SERVER_IP:7000 (admin/cyberblue)
+- **Velociraptor**: https://YOUR_SERVER_IP:7000 (admin/blackperl_onyx_shield)
 - **Wazuh**: https://YOUR_SERVER_IP:7001 (admin/SecretPassword)
 - **Shuffle**: https://YOUR_SERVER_IP:7002 (admin/password)
 - **MISP**: https://YOUR_SERVER_IP:7003 (admin@admin.test/admin)
 - **CyberChef**: http://YOUR_SERVER_IP:7004 (no auth)
 - **TheHive**: http://YOUR_SERVER_IP:7005 (admin@thehive.local/secret)
-- **Cortex**: http://YOUR_SERVER_IP:7006 (admin/cyberblue123)
+- **Cortex**: http://YOUR_SERVER_IP:7006 (admin/blackperl_onyx_shield123)
 - **FleetDM**: http://YOUR_SERVER_IP:7007 (setup required)
 - **Arkime**: http://YOUR_SERVER_IP:7008 (admin/admin)
-- **Caldera**: http://YOUR_SERVER_IP:7009 (red:cyberblue, blue:cyberblue)
+- **Caldera**: http://YOUR_SERVER_IP:7009 (red:blackperl_onyx_shield, blue:blackperl_onyx_shield)
 - **EveBox**: http://YOUR_SERVER_IP:7015 (no auth)
-- **Wireshark**: http://YOUR_SERVER_IP:7011 (admin/cyberblue)
+- **Wireshark**: http://YOUR_SERVER_IP:7011 (admin/blackperl_onyx_shield)
 - **MITRE Navigator**: http://YOUR_SERVER_IP:7013 (no auth)
-- **Portainer**: https://YOUR_SERVER_IP:9443 (admin/cyberblue123)
+- **Portainer**: https://YOUR_SERVER_IP:9443 (admin/blackperl_onyx_shield123)
 
 ---
 
@@ -351,7 +351,7 @@ sudo docker stats
 ### 🛠️ **Utility Scripts**
 
 - **`./setup-prerequisites.sh`** - Install all system prerequisites
-- **`./cyberblue_install.sh`** - Main BlackPerl_Onyx_Shield installation script  
+- **`./blackperl_onyx_shield_install.sh`** - Main BlackPerl_Onyx_Shield installation script  
 - **`./force-start.sh`** - Emergency restart for all services
 - **`./fix-fleet.sh`** - Fix Fleet database issues
 
@@ -585,7 +585,7 @@ BlackPerl_Onyx_Shield includes built-in monitoring:
 
 ## 🌐 Learn More
 
-- **🌍 Official Website (Not Up Yet)**: [https://cyberblue.co](https://cyberblue.co)
+- **🌍 Official Website (Not Up Yet)**: [https://blackperl_onyx_shield.co](https://blackperl_onyx_shield.co)
 - **📚 Documentation**: Available in this repository
 - **⭐ Star the Project**: Help others discover BlackPerl_Onyx_Shield!
 
@@ -644,7 +644,7 @@ This project stands on the shoulders of giants. We are deeply grateful to the en
 
 **⭐ Star this repository if you find it useful for learning!**
 
-**🌐 Visit [cyberblue.co](https://cyberblue.co) for tutorials and guides (Not Up Yet)**
+**🌐 Visit [blackperl_onyx_shield.co](https://blackperl_onyx_shield.co) for tutorials and guides (Not Up Yet)**
 
 *BlackPerl_Onyx_Shield v1.0-beta - Educational Cybersecurity Training Platform*
 

@@ -150,7 +150,7 @@ sudo ufw status
 
 ### On Server (Velociraptor GUI)
 1. Access: `https://YOUR_SERVER_IP:7000`
-2. Login: `admin` / `cyberblue`
+2. Login: `admin` / `blackperl_onyx_shield`
 3. Navigate to "Show All Clients"
 4. Look for hostname of deployed machine
 

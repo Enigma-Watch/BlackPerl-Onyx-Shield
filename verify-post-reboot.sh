@@ -27,7 +27,7 @@ sleep 30
 
 # 1. Check SystemD Services
 echo "📋 Checking SystemD Services..."
-services=("docker" "cyberblue-soc" "netfilter-persistent" "caldera-autostart")
+services=("docker" "blackperl_onyx_shield-soc" "netfilter-persistent" "caldera-autostart")
 for service in "${services[@]}"; do
     if sudo systemctl is-active --quiet "$service"; then
         print_status "$service service is running"
@@ -132,16 +132,16 @@ echo ""
 
 # 5. Show Access URLs
 echo "🌐 Complete Service Access URLs:"
-echo "   🏠 Portal:          https://$SERVER_IP:5443 (admin / cyberblue123)"
+echo "   🏠 Portal:          https://$SERVER_IP:5443 (admin / blackperl_onyx_shield123)"
 echo "   🔒 MISP:            https://$SERVER_IP:7003 (admin@admin.test / admin)"
-echo "   🛡️  Wazuh:           http://$SERVER_IP:7001 (admin / cyberblue)"
+echo "   🛡️  Wazuh:           http://$SERVER_IP:7001 (admin / blackperl_onyx_shield)"
 echo "   📊 Arkime:          http://$SERVER_IP:7008 (admin / admin)"
-echo "   🧠 Caldera:         http://$SERVER_IP:7009 (admin / cyberblue)"
-echo "   🕷️  TheHive:         http://$SERVER_IP:7005 (admin / cyberblue)"
-echo "   🔧 Fleet:           http://$SERVER_IP:7007 (admin / cyberblue)"
+echo "   🧠 Caldera:         http://$SERVER_IP:7009 (admin / blackperl_onyx_shield)"
+echo "   🕷️  TheHive:         http://$SERVER_IP:7005 (admin / blackperl_onyx_shield)"
+echo "   🔧 Fleet:           http://$SERVER_IP:7007 (admin / blackperl_onyx_shield)"
 echo "   🧪 CyberChef:       http://$SERVER_IP:7004"
-echo "   🔗 Shuffle:         http://$SERVER_IP:7002 (admin / cyberblue)"
-echo "   🖥️  Portainer:       http://$SERVER_IP:9443 (admin / cyberblue)"
+echo "   🔗 Shuffle:         http://$SERVER_IP:7002 (admin / blackperl_onyx_shield)"
+echo "   🖥️  Portainer:       http://$SERVER_IP:9443 (admin / blackperl_onyx_shield)"
 echo "   🔍 EveBox:          http://$SERVER_IP:7015"
 echo "   🛡️  OpenVAS:        http://$SERVER_IP:7014"
 echo "   🗺️  MITRE Navigator: http://$SERVER_IP:7013"
@@ -160,6 +160,6 @@ echo ""
 echo "💡 If services are not accessible:"
 echo "   1. Wait 5 minutes for full startup"
 echo "   2. Run: sudo docker ps (check container status)"
-echo "   3. Run: sudo systemctl status cyberblue-soc"
+echo "   3. Run: sudo systemctl status blackperl_onyx_shield-soc"
 echo "   4. Run: ./fix-docker-external-access.sh --apply-only"
 echo ""

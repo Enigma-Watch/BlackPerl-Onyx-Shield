@@ -6,7 +6,7 @@
 # This script combines prerequisites setup and BlackPerl_Onyx_Shield initialization
 # into one fully automated installation - NO user intervention required!
 #
-# Usage: ./install-cyberblue-auto.sh
+# Usage: ./install-blackperl_onyx_shield-auto.sh
 # 
 # Features:
 # ✅ Zero prompts - completely hands-free installation
@@ -1022,7 +1022,7 @@ show_progress "Configuring automatic service startup after reboot..."
 INSTALL_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Create systemd service for BlackPerl_Onyx_Shield auto-start
-sudo tee /etc/systemd/system/cyberblue-autostart.service > /dev/null << EOF
+sudo tee /etc/systemd/system/blackperl_onyx_shield-autostart.service > /dev/null << EOF
 [Unit]
 Description=BlackPerl_Onyx_Shield SOC Platform Auto-Start
 After=network-online.target docker.service
@@ -1048,12 +1048,12 @@ EOF
 echo -e "${CYAN}   [SYSTEMD]${NC} Reloading systemd daemon..."
 sudo systemctl daemon-reload
 
-echo -e "${CYAN}   [SYSTEMD]${NC} Enabling cyberblue-autostart.service..."
-sudo systemctl enable cyberblue-autostart.service 2>&1 | head -3 | while read line; do echo -e "${CYAN}   [SYSTEMD]${NC} $line"; done
+echo -e "${CYAN}   [SYSTEMD]${NC} Enabling blackperl_onyx_shield-autostart.service..."
+sudo systemctl enable blackperl_onyx_shield-autostart.service 2>&1 | head -3 | while read line; do echo -e "${CYAN}   [SYSTEMD]${NC} $line"; done
 
 echo -e "${GREEN}✅ BlackPerl_Onyx_Shield auto-start configured${NC}"
 echo -e "${CYAN}   [INFO]${NC} BlackPerl_Onyx_Shield will automatically start after system reboots"
-echo -e "${CYAN}   [INFO]${NC} Service: cyberblue-autostart.service"
+echo -e "${CYAN}   [INFO]${NC} Service: blackperl_onyx_shield-autostart.service"
 
 # ============================================================================
 # FINAL VERIFICATION AND SUMMARY
@@ -1127,7 +1127,7 @@ echo ""
 echo -e "${BLUE}🌐 Access Your BlackPerl_Onyx_Shield SOC Tools:${NC}"
 echo ""
 echo -e "${GREEN}   🏠 Main Portal:    https://${HOST_IP}:5443${NC}"
-echo "      └─ Credentials: admin / cyberblue123"
+echo "      └─ Credentials: admin / blackperl_onyx_shield123"
 echo ""
 echo "   🔒 MISP:           https://${HOST_IP}:7003"
 echo "   🛡️  Wazuh:          http://${HOST_IP}:7001"
@@ -1140,7 +1140,7 @@ echo "   🧪 CyberChef:      http://${HOST_IP}:7004"
 echo "   🔗 Shuffle:        http://${HOST_IP}:7002"
 echo "   🖥️  Portainer:      http://${HOST_IP}:9443"
 echo ""
-echo -e "${YELLOW}🔑 Default Credentials (for tools): admin / cyberblue${NC}"
+echo -e "${YELLOW}🔑 Default Credentials (for tools): admin / blackperl_onyx_shield${NC}"
 echo ""
 echo -e "${GREEN}✅ Features Enabled:${NC}"
 echo "   ✅ Universal external access (AWS, Azure, GCP, VMware, bare metal)"

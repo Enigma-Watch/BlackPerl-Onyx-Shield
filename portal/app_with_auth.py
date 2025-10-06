@@ -1029,7 +1029,7 @@ def get_tools():
             "protocols": ["https"],
             "credentials": {
                 "username": "admin",
-                "password": "cyberblue"
+                "password": "blackperl_onyx_shield"
             }
         },
         {
@@ -1170,7 +1170,7 @@ def get_tools():
             "protocols": ["https"],
             "credentials": {
                 "username": "admin",
-                "password": "cyberblue"
+                "password": "blackperl_onyx_shield"
             }
         },
         {
@@ -1195,7 +1195,7 @@ def get_tools():
             "protocols": ["https"],
             "credentials": {
                 "username": "admin",
-                "password": "cyberblue123"
+                "password": "blackperl_onyx_shield123"
             }
         },
         {
@@ -1208,7 +1208,7 @@ def get_tools():
             "protocols": ["http"],
             "credentials": {
                 "username": "admin",
-                "password": "cyberblue"
+                "password": "blackperl_onyx_shield"
             }
         }
     ]

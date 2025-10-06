@@ -476,7 +476,7 @@ main_installation() {
         echo ""
         echo -e "${CYAN}📋 Next Steps:${NC}"
         echo "1. Clone BlackPerl_Onyx_Shield repository (if not already done)"
-        echo "2. Run: ${YELLOW}./cyberblue_init.sh${NC}"
+        echo "2. Run: ${YELLOW}./blackperl_onyx_shield_init.sh${NC}"
         echo ""
         echo -e "${YELLOW}💡 Note: ${NC}If Docker commands still require sudo, logout and login again."
         echo ""

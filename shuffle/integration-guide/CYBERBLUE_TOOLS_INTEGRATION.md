@@ -12,7 +12,7 @@ Use these pre-configured endpoints in your Shuffle workflows:
 - **URL**: `https://{{SERVER_IP}}:7000`
 - **API**: `https://{{SERVER_IP}}:7000/api/v1`
 - **Username**: `admin`
-- **Password**: `cyberblue`
+- **Password**: `blackperl_onyx_shield`
 - **Use Cases**: Artifact collection, hunt execution, forensic analysis
 - **Shuffle Apps**: HTTP, Velociraptor (if available)
 

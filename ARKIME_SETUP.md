@@ -10,7 +10,7 @@ Arkime is a full packet capture and analysis tool that provides deep network vis
 
 ### During Initial Installation
 
-When you run `./cyberblue_init.sh`, Arkime is automatically:
+When you run `./blackperl_onyx_shield_init.sh`, Arkime is automatically:
 
 1. ✅ **Database Initialized** - OpenSearch indices created
 2. ✅ **Sample Data Generated** - Live network traffic captured
