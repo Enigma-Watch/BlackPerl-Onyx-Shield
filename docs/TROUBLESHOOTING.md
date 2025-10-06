@@ -1,6 +1,6 @@
-# 🔧 BlackPerl_Onyx_Shield Troubleshooting Guide
+# 🔧 BlackPerl Onyx Shield  Troubleshooting Guide
 
-Comprehensive troubleshooting guide for common issues in BlackPerl_Onyx_Shield deployments.
+Comprehensive troubleshooting guide for common issues in BlackPerl Onyx Shield deployments.
 
 ---
 
@@ -10,7 +10,7 @@ Comprehensive troubleshooting guide for common issues in BlackPerl_Onyx_Shield d
 ```bash
 # Run this script to get overall system status
 #!/bin/bash
-echo "=== BlackPerl_Onyx_Shield System Health Check ==="
+echo "=== BlackPerl Onyx Shield System Health Check ==="
 echo
 echo "1. Docker Status:"
 systemctl is-active docker
