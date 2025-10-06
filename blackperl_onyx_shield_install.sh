@@ -6,7 +6,6 @@
 # This script combines prerequisites setup and BlackPerl_Onyx_Shield initialization
 # into one fully automated installation - NO user intervention required!
 #
-# Usage: ./install-blackperl_onyx_shield-auto.sh
 # 
 # Features:
 # ✅ Zero prompts - completely hands-free installation
