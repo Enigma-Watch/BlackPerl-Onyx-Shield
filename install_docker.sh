@@ -11,4 +11,4 @@ sudo usermod -aG docker $USER
 newgrp docker 
 sudo chown root:docker /var/run/docker.sock
 sudo chmod 660 /var/run/docker.sock
-docker --version && docker compose version
+docker --version && docker compose versio
