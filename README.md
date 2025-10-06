@@ -155,7 +155,7 @@ BlackPerl_Onyx_Shield transforms Blue Team cybersecurity tool deployment into a 
 
 ```bash
 # Clone and install BlackPerl_Onyx_Shield 
-git clone https://github.com/CyberBlu3s/BlackPerl_Onyx_Shield.git
+git clone https://github.com/Enigma-Watch/BlackPerl_Onyx_Shield.git
 cd BlackPerl_Onyx_Shield
 chmod +x blackperl_onyx_shield_install.sh
 ./blackperl_onyx_shield_install.sh
