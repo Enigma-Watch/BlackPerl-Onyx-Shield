@@ -1,12 +1,12 @@
-# ⚙️ BlackPerl_Onyx_Shield Tool Configurations
+# ⚙️ BlackPerl Onyx Shield Tool Configurations
 
-Comprehensive configuration guide for all security tools in the BlackPerl_Onyx_Shield platform.
+Comprehensive configuration guide for all security tools in the BlackPerl Onyx Shield platform.
 
 ---
 
 ## 🎯 Overview
 
-This guide provides detailed configuration instructions, best practices, and advanced settings for each tool in the BlackPerl_Onyx_Shield platform. Each section includes basic setup, advanced configurations, and integration with other tools.
+This guide provides detailed configuration instructions, best practices, and advanced settings for each tool in the BlackPerl Onyx Shield platform. Each section includes basic setup, advanced configurations, and integration with other tools.
 
 ---
 
