@@ -1,4 +1,4 @@
-# 🛡️ BlackPerl_Onyx_Shield Platform
+# 🛡️ BlackPerl Onyx Shield Platform
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/Version-1.0--beta-orange.svg)](https://github.com/BlackPerl_Onyx_Shield0/BlackPerl_Onyx_Shield/releases)
@@ -11,7 +11,7 @@
 
 > **🎓 Learning & Training Platform** - Deploy 15+ integrated security tools for cybersecurity education and testing
 
-**BlackPerl_Onyx_Shield** is a comprehensive, containerized cybersecurity **LEARNING PLATFORM** that brings together industry-leading open-source tools for **SIEM**, **DFIR**, **CTI**, **SOAR**, and **Network Analysis**. 
+**BlackPerl Onyx Shield** is a comprehensive, containerized cybersecurity **LEARNING PLATFORM** that brings together industry-leading open-source tools for **SIEM**, **DFIR**, **CTI**, **SOAR**, and **Network Analysis**. 
 
 ## 🚨 **IMPORTANT SECURITY NOTICE**
 
@@ -42,7 +42,7 @@ This software is provided "AS IS" for educational purposes. No warranty or guara
 
 ## 🎯 About BlackPerl_Onyx_Shield
 
-**BlackPerl_Onyx_Shield** is an open-source, all-in-one cybersecurity training platform that provides hands-on experience with industry-standard security tools. Built specifically for educational purposes, it allows students, security professionals, and enthusiasts to learn SOC operations, threat hunting, incident response, and security automation in a safe, isolated environment.
+**BlackPerl Onyx Shield** is an open-source, all-in-one cybersecurity training platform that provides hands-on experience with industry-standard security tools. Built specifically for educational purposes, it allows students, security professionals, and enthusiasts to learn SOC operations, threat hunting, incident response, and security automation in a safe, isolated environment.
 
 **🌐 Website**: [https://blackperldfir.com](https://blackperldfir.com)
 
@@ -56,7 +56,7 @@ This software is provided "AS IS" for educational purposes. No warranty or guara
 
 ### **What It Does:**
 
-BlackPerl_Onyx_Shield transforms Blue Team cybersecurity tool deployment into a **like one-command solution**. Built with Docker Compose and featuring a beautiful web portal, it provides enterprise-grade security tool access in minutes, not days - perfect for learning and practicing security operations.
+BlackPerl Onyx Shield transforms Blue Team cybersecurity tool deployment into a **like one-command solution**. Built with Docker Compose and featuring a beautiful web portal, it provides enterprise-grade security tool access in minutes, not days - perfect for learning and practicing security operations.
 
 ### 🌟 Why BlackPerl_Onyx_Shield for Learning?
 
