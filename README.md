@@ -1,10 +1,10 @@
-# 🛡️ BlackPerl_Onyx_ShieldSOC Platform
+# 🛡️ BlackPerl_Onyx_Shield Platform
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/Version-1.0--beta-orange.svg)](https://github.com/BlackPerl_Onyx_Shield0/BlackPerl_Onyx_Shield/releases)
 [![Docker](https://img.shields.io/badge/Docker-20.10+-blue.svg)](https://www.docker.com/)
 [![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2.0+-blue.svg)](https://docs.docker.com/compose/)
-[![Website]
+[![Website](https://img.shields.io/badge/Website-BlackPerl_Onyx_Shield.co-blue.svg)](https://blackperldfir.com)
 [![For](https://img.shields.io/badge/Purpose-EDUCATION%20ONLY-red.svg)](https://github.com/BlackPerl_Onyx_Shield0/BlackPerl_Onyx_Shield#-important-security-notice)
 
 # ⚠️ **EDUCATIONAL & TESTING ENVIRONMENT ONLY** ⚠️
@@ -44,7 +44,7 @@ This software is provided "AS IS" for educational purposes. No warranty or guara
 
 **BlackPerl_Onyx_Shield** is an open-source, all-in-one cybersecurity training platform that provides hands-on experience with industry-standard security tools. Built specifically for educational purposes, it allows students, security professionals, and enthusiasts to learn SOC operations, threat hunting, incident response, and security automation in a safe, isolated environment.
 
-**🌐 Website-NotUpYet**: [https://cyberblue.co](https://cyberblue.co)  
+**🌐 Website-NotUpYet**: [https://blackperldfir.com](https://blackperldfir.com)
 **📖 Documentation**: Available in this repository  
 **🎓 Purpose**: Educational and training use  
 **📜 License**: MIT (Open Source)  
@@ -147,10 +147,10 @@ BlackPerl_Onyx_Shield transforms Blue Team cybersecurity tool deployment into a 
 
 ### ⚡ **Simple Installation**
 
-**Complete BlackPerl_Onyx_ShieldSOC installation in few commands:**
+**Complete BlackPerl_Onyx_Shield installation in few commands:**
 
 ```bash
-# Clone and install BlackPerl_Onyx_Shield SOC
+# Clone and install BlackPerl_Onyx_Shield 
 git clone https://github.com/CyberBlu3s/BlackPerl_Onyx_Shield.git
 cd BlackPerl_Onyx_Shield
 chmod +x cyberblue_install.sh
@@ -167,7 +167,7 @@ chmod +x cyberblue_install.sh
 - ✅ Works on AWS, VMware, VirtualBox, you can test others :) 
 - ✅ Complete setup in about 30 minutes
 
-### 🌐 **Access Your SOC Lab**
+### 🌐 **Access Your  Lab**
 
 After installation, access your security lab at:
 - **🔒 Portal**: `https://YOUR_SERVER_IP:5443` (no authentication required)
