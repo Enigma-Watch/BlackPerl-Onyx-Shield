@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/badge/Version-1.0--beta-orange.svg)](https://github.com/BlackPerl_Onyx_Shield0/BlackPerl_Onyx_Shield/releases)
 [![Docker](https://img.shields.io/badge/Docker-20.10+-blue.svg)](https://www.docker.com/)
 [![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2.0+-blue.svg)](https://docs.docker.com/compose/)
-[![Website](https://img.shields.io/badge/Website-cyberblue.co-blue.svg)](https://cyberblue.co)
+[![Website]
 [![For](https://img.shields.io/badge/Purpose-EDUCATION%20ONLY-red.svg)](https://github.com/BlackPerl_Onyx_Shield0/BlackPerl_Onyx_Shield#-important-security-notice)
 
 # ⚠️ **EDUCATIONAL & TESTING ENVIRONMENT ONLY** ⚠️
