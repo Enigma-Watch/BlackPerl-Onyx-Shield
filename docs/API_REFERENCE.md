@@ -1,4 +1,4 @@
-# 🔌 BlackPerl_Onyx_Shield Portal API Reference
+# 🔌 BlackPerl Onyx Shield Portal API Reference
 
 Complete API documentation for the BlackPerl_Onyx_Shield Portal backend system.
 
