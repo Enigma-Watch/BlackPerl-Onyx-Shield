@@ -315,7 +315,7 @@ BlackPerl_Onyx_Shield uses a microservices architecture with Docker Compose:
 sudo docker ps
 
 # View portal logs
-sudo docker logs cyber-blue-portal
+sudo docker logs bp-onyx-shield-portal
 ```
 
 **Portal not accessible:**

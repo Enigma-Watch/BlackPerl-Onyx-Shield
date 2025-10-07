@@ -40,20 +40,20 @@ if [ -n "$SUDO_USER" ] && [ "$SUDO_USER" != "root" ]; then
 fi
 
 # Export for docker-compose, scripts, and subprocesses
-export CYBERBLUE_INSTALL_DIR="$SCRIPT_DIR"
-export CYBERBLUE_INSTALL_USER="$INSTALL_USER"
+export onyxshield_INSTALL_DIR="$SCRIPT_DIR"
+export onyxshield_INSTALL_USER="$INSTALL_USER"
 
 # CRITICAL: Write to .env file IMMEDIATELY so docker-compose has these!
 # Remove old values if they exist
 if [ -f "$SCRIPT_DIR/.env" ]; then
-    sed -i '/^CYBERBLUE_INSTALL_DIR=/d' "$SCRIPT_DIR/.env" 2>/dev/null || true
-    sed -i '/^CYBERBLUE_INSTALL_USER=/d' "$SCRIPT_DIR/.env" 2>/dev/null || true
+    sed -i '/^onyxshield_INSTALL_DIR=/d' "$SCRIPT_DIR/.env" 2>/dev/null || true
+    sed -i '/^onyxshield_INSTALL_USER=/d' "$SCRIPT_DIR/.env" 2>/dev/null || true
 fi
 
 # Write to .env (docker-compose reads this automatically)
 cat >> "$SCRIPT_DIR/.env" << ENV_VARS
-CYBERBLUE_INSTALL_DIR=$SCRIPT_DIR
-CYBERBLUE_INSTALL_USER=$INSTALL_USER
+onyxshield_INSTALL_DIR=$SCRIPT_DIR
+onyxshield_INSTALL_USER=$INSTALL_USER
 ENV_VARS
 
 echo "✓ Installation directory: $SCRIPT_DIR"
@@ -88,7 +88,7 @@ show_progress() {
 }
 
 # ============================================================================
-# BANNER WITH CYBERBLUE LOGO
+# BANNER WITH onyxshield LOGO
 # ============================================================================
 clear
 echo ""
@@ -470,10 +470,10 @@ echo ""
 sleep 2
 
 # ============================================================================
-# PART 2: CYBERBLUE SOC PLATFORM DEPLOYMENT
+# PART 2: onyxshield SOC PLATFORM DEPLOYMENT
 # ============================================================================
 echo -e "${BLUE}═══════════════════════════════════════════════════════════${NC}"
-echo -e "${BLUE}║  PART 2/2: DEPLOYING CYBERBLUE SOC PLATFORM            ║${NC}"
+echo -e "${BLUE}║  PART 2/2: DEPLOYING onyxshield SOC PLATFORM            ║${NC}"
 echo -e "${BLUE}═══════════════════════════════════════════════════════════${NC}"
 echo ""
 
@@ -729,7 +729,7 @@ echo -e "${BLUE}🔧 Step 2.12: Fleet Database Configuration${NC}"
 show_progress "Configuring Fleet database (2-3 minutes)..."
 echo ""
 timeout 600 sudo docker run --rm \
-  --network=cyber-blue \
+  --network=bp-onyx-shield \
   -e FLEET_MYSQL_ADDRESS=fleet-mysql:3306 \
   -e FLEET_MYSQL_USERNAME=fleet \
   -e FLEET_MYSQL_PASSWORD=fleetpass \
@@ -937,7 +937,7 @@ SCRIPT_DIR=""
 # Method 1: Read from .env in known locations
 for base_dir in /home/*/BlackPerl_Onyx_Shield /root/BlackPerl_Onyx_Shield; do
     if [ -f "$base_dir/.env" ]; then
-        FOUND_DIR=$(grep "^CYBERBLUE_INSTALL_DIR=" "$base_dir/.env" 2>/dev/null | cut -d'=' -f2)
+        FOUND_DIR=$(grep "^onyxshield_INSTALL_DIR=" "$base_dir/.env" 2>/dev/null | cut -d'=' -f2)
         if [ -n "$FOUND_DIR" ] && [ -d "$FOUND_DIR" ]; then
             SCRIPT_DIR="$FOUND_DIR"
             echo "[MISP AUTO-SETUP] Found install dir from .env: $SCRIPT_DIR"
@@ -948,7 +948,7 @@ done
 
 # Method 2: Fallback to environment variable
 if [ -z "$SCRIPT_DIR" ]; then
-    SCRIPT_DIR="${CYBERBLUE_INSTALL_DIR}"
+    SCRIPT_DIR="${onyxshield_INSTALL_DIR}"
 fi
 
 # Method 3: Last resort - find it
@@ -1097,7 +1097,7 @@ clear
 echo ""
 echo -e "${GREEN}╔════════════════════════════════════════════════════════════╗${NC}"
 echo -e "${GREEN}║                                                            ║${NC}"
-echo -e "${GREEN}║    🎉 INSTALLATION COMPLETE - CYBERBLUE SOC READY! 🎉     ║${NC}"
+echo -e "${GREEN}║    🎉 INSTALLATION COMPLETE - onyxshield SOC READY! 🎉     ║${NC}"
 echo -e "${GREEN}║                                                            ║${NC}"
 echo -e "${GREEN}╚════════════════════════════════════════════════════════════╝${NC}"
 echo ""

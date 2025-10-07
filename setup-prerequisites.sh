@@ -65,7 +65,7 @@ while [[ $# -gt 0 ]]; do
 done
 
 echo ""
-echo -e "${BLUE}===== COMPLETE CYBERBLUE SOC PREREQUISITES SETUP =====${NC}"
+echo -e "${BLUE}===== COMPLETE onyxshield SOC PREREQUISITES SETUP =====${NC}"
 echo -e "${CYAN}Run this entire block on any Ubuntu system (AWS, VMware, VirtualBox, bare metal)${NC}"
 echo ""
 

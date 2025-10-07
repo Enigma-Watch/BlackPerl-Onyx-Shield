@@ -138,7 +138,7 @@ sudo docker-compose up -d portal
 ```
 
 # Check portal logs
-sudo docker logs cyber-blue-portal
+sudo docker logs bp-onyx-shield-portal
 
 # Test HTTPS access
 curl -k https://localhost:5443/login

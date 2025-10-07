@@ -46,7 +46,7 @@ These workflows are ready to import into Shuffle for common SOC operations.
 ## 🎓 Learning Resources
 
 - Shuffle Documentation: https://shuffler.io/docs
-- BlackPerl_Onyx_Shield Integration Guide: See `integration-guide/CYBERBLUE_TOOLS_INTEGRATION.md`
+- BlackPerl_Onyx_Shield Integration Guide: See `integration-guide/onyxshield_TOOLS_INTEGRATION.md`
 - Tool-specific APIs: Check each tool's documentation
 
 ---

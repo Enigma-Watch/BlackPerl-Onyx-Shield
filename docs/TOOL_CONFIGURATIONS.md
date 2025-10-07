@@ -1384,7 +1384,7 @@ services:
     ports:
       - "3000:3000"
     networks:
-      - cyber-blue
+      - bp-onyx-shield
 
   prometheus:
     image: prom/prometheus:latest
@@ -1401,14 +1401,14 @@ services:
     ports:
       - "9090:9090"
     networks:
-      - cyber-blue
+      - bp-onyx-shield
 
 volumes:
   grafana-storage:
   prometheus-storage:
 
 networks:
-  cyber-blue:
+  bp-onyx-shield:
     external: true
 ```
 

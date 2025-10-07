@@ -147,7 +147,7 @@
     {
       "timestamp": "2025-08-01T00:38:36.267619",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.manager-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.manager-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 19
@@ -155,7 +155,7 @@
     {
       "timestamp": "2025-08-01T00:38:36.268200",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cortex-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cortex-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 20
@@ -163,7 +163,7 @@
     {
       "timestamp": "2025-08-01T00:38:36.268829",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.indexer-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.indexer-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 21
@@ -187,7 +187,7 @@
     {
       "timestamp": "2025-08-01T00:38:36.270742",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cyberchef-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cyberchef-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 24
@@ -195,7 +195,7 @@
     {
       "timestamp": "2025-08-01T00:38:36.271378",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-misp-modules-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-misp-modules-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 25
@@ -211,7 +211,7 @@
     {
       "timestamp": "2025-08-01T00:38:36.272578",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-elasticsearch-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-elasticsearch-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 27
@@ -219,7 +219,7 @@
     {
       "timestamp": "2025-08-01T00:38:36.273206",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-mail-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-mail-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 28
@@ -267,7 +267,7 @@
     {
       "timestamp": "2025-08-01T00:38:36.277484",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-redis-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-redis-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 34
@@ -275,7 +275,7 @@
     {
       "timestamp": "2025-08-01T00:38:36.278175",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-db-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-db-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 35
@@ -299,7 +299,7 @@
     {
       "timestamp": "2025-08-01T00:38:36.280343",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-opensearch-init-1' started with status: stopped",
+      "details": "Container 'bp-onyx-shield-test-opensearch-init-1' started with status: stopped",
       "user": "system",
       "level": "info",
       "id": 38
@@ -315,7 +315,7 @@
     {
       "timestamp": "2025-08-01T00:38:36.281921",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-thehive-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-thehive-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 40
@@ -547,7 +547,7 @@
     {
       "timestamp": "2025-08-01T00:43:38.113889",
       "action": "container_started",
-      "details": "Container 'cyber-blue-portal' started with status: created",
+      "details": "Container 'bp-onyx-shield-portal' started with status: created",
       "user": "system",
       "level": "info",
       "id": 69
@@ -779,7 +779,7 @@
     {
       "timestamp": "2025-08-01T00:47:01.486906",
       "action": "container_started",
-      "details": "Container 'cyber-blue-portal' started with status: created",
+      "details": "Container 'bp-onyx-shield-portal' started with status: created",
       "user": "system",
       "level": "info",
       "id": 98
@@ -971,7 +971,7 @@
     {
       "timestamp": "2025-08-01T00:47:01.529614",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.manager-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.manager-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 122
@@ -979,7 +979,7 @@
     {
       "timestamp": "2025-08-01T00:47:01.531358",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cortex-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cortex-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 123
@@ -987,7 +987,7 @@
     {
       "timestamp": "2025-08-01T00:47:01.533152",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.indexer-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.indexer-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 124
@@ -1011,7 +1011,7 @@
     {
       "timestamp": "2025-08-01T00:47:01.538566",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cyberchef-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cyberchef-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 127
@@ -1019,7 +1019,7 @@
     {
       "timestamp": "2025-08-01T00:47:01.540372",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-misp-modules-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-misp-modules-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 128
@@ -1035,7 +1035,7 @@
     {
       "timestamp": "2025-08-01T00:47:01.543953",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-elasticsearch-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-elasticsearch-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 130
@@ -1043,7 +1043,7 @@
     {
       "timestamp": "2025-08-01T00:47:01.545599",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-mail-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-mail-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 131
@@ -1091,7 +1091,7 @@
     {
       "timestamp": "2025-08-01T00:47:01.556031",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-redis-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-redis-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 137
@@ -1099,7 +1099,7 @@
     {
       "timestamp": "2025-08-01T00:47:01.557756",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-db-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-db-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 138
@@ -1123,7 +1123,7 @@
     {
       "timestamp": "2025-08-01T00:47:01.563162",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-opensearch-init-1' started with status: stopped",
+      "details": "Container 'bp-onyx-shield-test-opensearch-init-1' started with status: stopped",
       "user": "system",
       "level": "info",
       "id": 141
@@ -1139,7 +1139,7 @@
     {
       "timestamp": "2025-08-01T00:47:01.566943",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-thehive-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-thehive-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 143
@@ -1363,7 +1363,7 @@
     {
       "timestamp": "2025-08-01T00:49:17.984220",
       "action": "container_started",
-      "details": "Container 'cyber-blue-portal' started with status: created",
+      "details": "Container 'bp-onyx-shield-portal' started with status: created",
       "user": "system",
       "level": "info",
       "id": 171
@@ -1555,7 +1555,7 @@
     {
       "timestamp": "2025-08-01T00:49:18.057001",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.manager-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.manager-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 195
@@ -1563,7 +1563,7 @@
     {
       "timestamp": "2025-08-01T00:49:18.060139",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cortex-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cortex-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 196
@@ -1571,7 +1571,7 @@
     {
       "timestamp": "2025-08-01T00:49:18.063360",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.indexer-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.indexer-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 197
@@ -1595,7 +1595,7 @@
     {
       "timestamp": "2025-08-01T00:49:18.071934",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cyberchef-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cyberchef-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 200
@@ -1603,7 +1603,7 @@
     {
       "timestamp": "2025-08-01T00:49:18.074606",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-misp-modules-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-misp-modules-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 201
@@ -1619,7 +1619,7 @@
     {
       "timestamp": "2025-08-01T00:49:18.079937",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-elasticsearch-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-elasticsearch-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 203
@@ -1627,7 +1627,7 @@
     {
       "timestamp": "2025-08-01T00:49:18.082673",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-mail-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-mail-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 204
@@ -1675,7 +1675,7 @@
     {
       "timestamp": "2025-08-01T00:49:18.099031",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-redis-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-redis-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 210
@@ -1683,7 +1683,7 @@
     {
       "timestamp": "2025-08-01T00:49:18.101731",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-db-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-db-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 211
@@ -1707,7 +1707,7 @@
     {
       "timestamp": "2025-08-01T00:49:18.110025",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-opensearch-init-1' started with status: stopped",
+      "details": "Container 'bp-onyx-shield-test-opensearch-init-1' started with status: stopped",
       "user": "system",
       "level": "info",
       "id": 214
@@ -1723,7 +1723,7 @@
     {
       "timestamp": "2025-08-01T00:49:18.115854",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-thehive-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-thehive-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 216
@@ -1931,7 +1931,7 @@
     {
       "timestamp": "2025-08-01T00:51:21.710004",
       "action": "container_started",
-      "details": "Container 'cyber-blue-portal' started with status: created",
+      "details": "Container 'bp-onyx-shield-portal' started with status: created",
       "user": "system",
       "level": "info",
       "id": 242
@@ -2123,7 +2123,7 @@
     {
       "timestamp": "2025-08-01T00:51:21.794778",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.manager-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.manager-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 266
@@ -2131,7 +2131,7 @@
     {
       "timestamp": "2025-08-01T00:51:21.798635",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cortex-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cortex-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 267
@@ -2139,7 +2139,7 @@
     {
       "timestamp": "2025-08-01T00:51:21.802625",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.indexer-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.indexer-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 268
@@ -2163,7 +2163,7 @@
     {
       "timestamp": "2025-08-01T00:51:21.812498",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cyberchef-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cyberchef-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 271
@@ -2171,7 +2171,7 @@
     {
       "timestamp": "2025-08-01T00:51:21.815593",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-misp-modules-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-misp-modules-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 272
@@ -2187,7 +2187,7 @@
     {
       "timestamp": "2025-08-01T00:51:21.822199",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-elasticsearch-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-elasticsearch-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 274
@@ -2195,7 +2195,7 @@
     {
       "timestamp": "2025-08-01T00:51:21.825577",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-mail-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-mail-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 275
@@ -2243,7 +2243,7 @@
     {
       "timestamp": "2025-08-01T00:51:21.848173",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-redis-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-redis-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 281
@@ -2251,7 +2251,7 @@
     {
       "timestamp": "2025-08-01T00:51:21.851605",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-db-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-db-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 282
@@ -2275,7 +2275,7 @@
     {
       "timestamp": "2025-08-01T00:51:21.861818",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-opensearch-init-1' started with status: stopped",
+      "details": "Container 'bp-onyx-shield-test-opensearch-init-1' started with status: stopped",
       "user": "system",
       "level": "info",
       "id": 285
@@ -2291,7 +2291,7 @@
     {
       "timestamp": "2025-08-01T00:51:21.868601",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-thehive-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-thehive-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 287
@@ -2747,7 +2747,7 @@
     {
       "timestamp": "2025-08-01T00:55:59.048755",
       "action": "container_started",
-      "details": "Container 'cyber-blue-portal' started with status: created",
+      "details": "Container 'bp-onyx-shield-portal' started with status: created",
       "user": "system",
       "level": "info",
       "id": 344
@@ -2939,7 +2939,7 @@
     {
       "timestamp": "2025-08-01T00:55:59.150446",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.manager-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.manager-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 368
@@ -2947,7 +2947,7 @@
     {
       "timestamp": "2025-08-01T00:55:59.154682",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cortex-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cortex-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 369
@@ -2955,7 +2955,7 @@
     {
       "timestamp": "2025-08-01T00:55:59.158770",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.indexer-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.indexer-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 370
@@ -2979,7 +2979,7 @@
     {
       "timestamp": "2025-08-01T00:55:59.171296",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cyberchef-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cyberchef-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 373
@@ -2987,7 +2987,7 @@
     {
       "timestamp": "2025-08-01T00:55:59.175597",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-misp-modules-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-misp-modules-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 374
@@ -3003,7 +3003,7 @@
     {
       "timestamp": "2025-08-01T00:55:59.184177",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-elasticsearch-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-elasticsearch-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 376
@@ -3011,7 +3011,7 @@
     {
       "timestamp": "2025-08-01T00:55:59.188722",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-mail-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-mail-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 377
@@ -3059,7 +3059,7 @@
     {
       "timestamp": "2025-08-01T00:55:59.214448",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-redis-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-redis-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 383
@@ -3067,7 +3067,7 @@
     {
       "timestamp": "2025-08-01T00:55:59.219013",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-db-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-db-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 384
@@ -3091,7 +3091,7 @@
     {
       "timestamp": "2025-08-01T00:55:59.233117",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-opensearch-init-1' started with status: stopped",
+      "details": "Container 'bp-onyx-shield-test-opensearch-init-1' started with status: stopped",
       "user": "system",
       "level": "info",
       "id": 387
@@ -3107,7 +3107,7 @@
     {
       "timestamp": "2025-08-01T00:55:59.242265",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-thehive-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-thehive-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 389
@@ -3259,7 +3259,7 @@
     {
       "timestamp": "2025-08-01T01:01:01.665905",
       "action": "container_started",
-      "details": "Container 'cyber-blue-portal' started with status: created",
+      "details": "Container 'bp-onyx-shield-portal' started with status: created",
       "user": "system",
       "level": "info",
       "id": 408
@@ -3451,7 +3451,7 @@
     {
       "timestamp": "2025-08-01T01:01:01.794386",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.manager-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.manager-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 432
@@ -3459,7 +3459,7 @@
     {
       "timestamp": "2025-08-01T01:01:01.799579",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cortex-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cortex-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 433
@@ -3467,7 +3467,7 @@
     {
       "timestamp": "2025-08-01T01:01:01.804813",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.indexer-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.indexer-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 434
@@ -3491,7 +3491,7 @@
     {
       "timestamp": "2025-08-01T01:01:01.820802",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cyberchef-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cyberchef-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 437
@@ -3499,7 +3499,7 @@
     {
       "timestamp": "2025-08-01T01:01:01.826065",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-misp-modules-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-misp-modules-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 438
@@ -3515,7 +3515,7 @@
     {
       "timestamp": "2025-08-01T01:01:01.836789",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-elasticsearch-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-elasticsearch-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 440
@@ -3523,7 +3523,7 @@
     {
       "timestamp": "2025-08-01T01:01:01.842253",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-mail-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-mail-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 441
@@ -3571,7 +3571,7 @@
     {
       "timestamp": "2025-08-01T01:01:01.872264",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-redis-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-redis-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 447
@@ -3579,7 +3579,7 @@
     {
       "timestamp": "2025-08-01T01:01:01.877174",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-db-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-db-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 448
@@ -3603,7 +3603,7 @@
     {
       "timestamp": "2025-08-01T01:01:01.892155",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-opensearch-init-1' started with status: stopped",
+      "details": "Container 'bp-onyx-shield-test-opensearch-init-1' started with status: stopped",
       "user": "system",
       "level": "info",
       "id": 451
@@ -3619,7 +3619,7 @@
     {
       "timestamp": "2025-08-01T01:01:01.902293",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-thehive-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-thehive-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 453
@@ -3707,7 +3707,7 @@
     {
       "timestamp": "2025-08-01T01:05:15.189731",
       "action": "container_started",
-      "details": "Container 'cyber-blue-portal' started with status: created",
+      "details": "Container 'bp-onyx-shield-portal' started with status: created",
       "user": "system",
       "level": "info",
       "id": 464
@@ -3899,7 +3899,7 @@
     {
       "timestamp": "2025-08-01T01:05:15.323561",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.manager-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.manager-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 488
@@ -3907,7 +3907,7 @@
     {
       "timestamp": "2025-08-01T01:05:15.329002",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cortex-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cortex-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 489
@@ -3915,7 +3915,7 @@
     {
       "timestamp": "2025-08-01T01:05:15.334329",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.indexer-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.indexer-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 490
@@ -3939,7 +3939,7 @@
     {
       "timestamp": "2025-08-01T01:05:15.351491",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cyberchef-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cyberchef-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 493
@@ -3947,7 +3947,7 @@
     {
       "timestamp": "2025-08-01T01:05:15.357085",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-misp-modules-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-misp-modules-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 494
@@ -3963,7 +3963,7 @@
     {
       "timestamp": "2025-08-01T01:05:15.368072",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-elasticsearch-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-elasticsearch-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 496
@@ -3971,7 +3971,7 @@
     {
       "timestamp": "2025-08-01T01:05:15.373733",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-mail-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-mail-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 497
@@ -4019,7 +4019,7 @@
     {
       "timestamp": "2025-08-01T01:05:15.409728",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-redis-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-redis-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 503
@@ -4027,7 +4027,7 @@
     {
       "timestamp": "2025-08-01T01:05:15.415455",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-db-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-db-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 504
@@ -4051,7 +4051,7 @@
     {
       "timestamp": "2025-08-01T01:05:15.432334",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-opensearch-init-1' started with status: stopped",
+      "details": "Container 'bp-onyx-shield-test-opensearch-init-1' started with status: stopped",
       "user": "system",
       "level": "info",
       "id": 507
@@ -4067,7 +4067,7 @@
     {
       "timestamp": "2025-08-01T01:05:15.443748",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-thehive-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-thehive-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 509
@@ -4307,7 +4307,7 @@
     {
       "timestamp": "2025-08-01T01:10:19.486899",
       "action": "container_started",
-      "details": "Container 'cyber-blue-portal' started with status: created",
+      "details": "Container 'bp-onyx-shield-portal' started with status: created",
       "user": "system",
       "level": "info",
       "id": 539
@@ -4499,7 +4499,7 @@
     {
       "timestamp": "2025-08-01T01:10:19.650822",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.manager-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.manager-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 563
@@ -4507,7 +4507,7 @@
     {
       "timestamp": "2025-08-01T01:10:19.657585",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cortex-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cortex-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 564
@@ -4515,7 +4515,7 @@
     {
       "timestamp": "2025-08-01T01:10:19.665326",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.indexer-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.indexer-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 565
@@ -4539,7 +4539,7 @@
     {
       "timestamp": "2025-08-01T01:10:19.685521",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cyberchef-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cyberchef-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 568
@@ -4547,7 +4547,7 @@
     {
       "timestamp": "2025-08-01T01:10:19.692263",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-misp-modules-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-misp-modules-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 569
@@ -4563,7 +4563,7 @@
     {
       "timestamp": "2025-08-01T01:10:19.706287",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-elasticsearch-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-elasticsearch-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 571
@@ -4571,7 +4571,7 @@
     {
       "timestamp": "2025-08-01T01:10:19.713560",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-mail-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-mail-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 572
@@ -4619,7 +4619,7 @@
     {
       "timestamp": "2025-08-01T01:10:19.757080",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-redis-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-redis-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 578
@@ -4627,7 +4627,7 @@
     {
       "timestamp": "2025-08-01T01:10:19.764043",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-db-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-db-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 579
@@ -4651,7 +4651,7 @@
     {
       "timestamp": "2025-08-01T01:10:19.785044",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-opensearch-init-1' started with status: stopped",
+      "details": "Container 'bp-onyx-shield-test-opensearch-init-1' started with status: stopped",
       "user": "system",
       "level": "info",
       "id": 582
@@ -4667,7 +4667,7 @@
     {
       "timestamp": "2025-08-01T01:10:19.798160",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-thehive-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-thehive-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 584
@@ -5107,7 +5107,7 @@
     {
       "timestamp": "2025-08-01T01:14:13.293891",
       "action": "container_started",
-      "details": "Container 'cyber-blue-portal' started with status: created",
+      "details": "Container 'bp-onyx-shield-portal' started with status: created",
       "user": "system",
       "level": "info",
       "id": 639
@@ -5299,7 +5299,7 @@
     {
       "timestamp": "2025-08-01T01:14:13.482239",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.manager-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.manager-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 663
@@ -5307,7 +5307,7 @@
     {
       "timestamp": "2025-08-01T01:14:13.489294",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cortex-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cortex-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 664
@@ -5315,7 +5315,7 @@
     {
       "timestamp": "2025-08-01T01:14:13.496528",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.indexer-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.indexer-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 665
@@ -5339,7 +5339,7 @@
     {
       "timestamp": "2025-08-01T01:14:13.518923",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cyberchef-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cyberchef-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 668
@@ -5347,7 +5347,7 @@
     {
       "timestamp": "2025-08-01T01:14:13.526376",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-misp-modules-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-misp-modules-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 669
@@ -5363,7 +5363,7 @@
     {
       "timestamp": "2025-08-01T01:14:13.541217",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-elasticsearch-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-elasticsearch-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 671
@@ -5371,7 +5371,7 @@
     {
       "timestamp": "2025-08-01T01:14:13.548610",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-mail-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-mail-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 672
@@ -5419,7 +5419,7 @@
     {
       "timestamp": "2025-08-01T01:14:13.593628",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-redis-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-redis-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 678
@@ -5427,7 +5427,7 @@
     {
       "timestamp": "2025-08-01T01:14:13.601193",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-db-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-db-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 679
@@ -5451,7 +5451,7 @@
     {
       "timestamp": "2025-08-01T01:14:13.623616",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-opensearch-init-1' started with status: stopped",
+      "details": "Container 'bp-onyx-shield-test-opensearch-init-1' started with status: stopped",
       "user": "system",
       "level": "info",
       "id": 682
@@ -5467,7 +5467,7 @@
     {
       "timestamp": "2025-08-01T01:14:13.638371",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-thehive-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-thehive-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 684
@@ -5603,7 +5603,7 @@
     {
       "timestamp": "2025-08-01T01:15:26.969411",
       "action": "container_started",
-      "details": "Container 'cyber-blue-portal' started with status: created",
+      "details": "Container 'bp-onyx-shield-portal' started with status: created",
       "user": "system",
       "level": "info",
       "id": 701
@@ -5795,7 +5795,7 @@
     {
       "timestamp": "2025-08-01T01:15:27.179522",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.manager-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.manager-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 725
@@ -5803,7 +5803,7 @@
     {
       "timestamp": "2025-08-01T01:15:27.187595",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cortex-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cortex-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 726
@@ -5811,7 +5811,7 @@
     {
       "timestamp": "2025-08-01T01:15:27.195427",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.indexer-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.indexer-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 727
@@ -5835,7 +5835,7 @@
     {
       "timestamp": "2025-08-01T01:15:27.220099",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cyberchef-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cyberchef-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 730
@@ -5843,7 +5843,7 @@
     {
       "timestamp": "2025-08-01T01:15:27.228180",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-misp-modules-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-misp-modules-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 731
@@ -5859,7 +5859,7 @@
     {
       "timestamp": "2025-08-01T01:15:27.244154",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-elasticsearch-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-elasticsearch-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 733
@@ -5867,7 +5867,7 @@
     {
       "timestamp": "2025-08-01T01:15:27.252152",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-mail-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-mail-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 734
@@ -5915,7 +5915,7 @@
     {
       "timestamp": "2025-08-01T01:15:27.300627",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-redis-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-redis-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 740
@@ -5923,7 +5923,7 @@
     {
       "timestamp": "2025-08-01T01:15:27.308803",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-db-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-db-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 741
@@ -5947,7 +5947,7 @@
     {
       "timestamp": "2025-08-01T01:15:27.332903",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-opensearch-init-1' started with status: stopped",
+      "details": "Container 'bp-onyx-shield-test-opensearch-init-1' started with status: stopped",
       "user": "system",
       "level": "info",
       "id": 744
@@ -5963,7 +5963,7 @@
     {
       "timestamp": "2025-08-01T01:15:27.349216",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-thehive-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-thehive-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 746
@@ -6307,7 +6307,7 @@
     {
       "timestamp": "2025-08-01T01:19:07.639120",
       "action": "container_started",
-      "details": "Container 'cyber-blue-portal' started with status: created",
+      "details": "Container 'bp-onyx-shield-portal' started with status: created",
       "user": "system",
       "level": "info",
       "id": 789
@@ -6499,7 +6499,7 @@
     {
       "timestamp": "2025-08-01T01:19:07.871978",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.manager-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.manager-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 813
@@ -6507,7 +6507,7 @@
     {
       "timestamp": "2025-08-01T01:19:07.881337",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cortex-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cortex-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 814
@@ -6515,7 +6515,7 @@
     {
       "timestamp": "2025-08-01T01:19:07.890321",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.indexer-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.indexer-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 815
@@ -6539,7 +6539,7 @@
     {
       "timestamp": "2025-08-01T01:19:07.918867",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cyberchef-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cyberchef-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 818
@@ -6547,7 +6547,7 @@
     {
       "timestamp": "2025-08-01T01:19:07.928253",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-misp-modules-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-misp-modules-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 819
@@ -6563,7 +6563,7 @@
     {
       "timestamp": "2025-08-01T01:19:07.949072",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-elasticsearch-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-elasticsearch-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 821
@@ -6571,7 +6571,7 @@
     {
       "timestamp": "2025-08-01T01:19:07.958085",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-mail-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-mail-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 822
@@ -6619,7 +6619,7 @@
     {
       "timestamp": "2025-08-01T01:19:08.013776",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-redis-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-redis-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 828
@@ -6627,7 +6627,7 @@
     {
       "timestamp": "2025-08-01T01:19:08.022714",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-db-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-db-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 829
@@ -6651,7 +6651,7 @@
     {
       "timestamp": "2025-08-01T01:19:08.050056",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-opensearch-init-1' started with status: stopped",
+      "details": "Container 'bp-onyx-shield-test-opensearch-init-1' started with status: stopped",
       "user": "system",
       "level": "info",
       "id": 832
@@ -6667,7 +6667,7 @@
     {
       "timestamp": "2025-08-01T01:19:08.069855",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-thehive-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-thehive-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 834
@@ -6795,7 +6795,7 @@
     {
       "timestamp": "2025-08-01T01:20:30.715531",
       "action": "container_started",
-      "details": "Container 'cyber-blue-portal' started with status: created",
+      "details": "Container 'bp-onyx-shield-portal' started with status: created",
       "user": "system",
       "level": "info",
       "id": 850
@@ -7003,7 +7003,7 @@
     {
       "timestamp": "2025-08-01T01:20:31.083132",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.manager-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.manager-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 876
@@ -7011,7 +7011,7 @@
     {
       "timestamp": "2025-08-01T01:20:31.098200",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cortex-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cortex-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 877
@@ -7019,7 +7019,7 @@
     {
       "timestamp": "2025-08-01T01:20:31.110505",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.indexer-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.indexer-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 878
@@ -7051,7 +7051,7 @@
     {
       "timestamp": "2025-08-01T01:20:31.160280",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cyberchef-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cyberchef-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 882
@@ -7059,7 +7059,7 @@
     {
       "timestamp": "2025-08-01T01:20:31.169678",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-misp-modules-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-misp-modules-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 883
@@ -7075,7 +7075,7 @@
     {
       "timestamp": "2025-08-01T01:20:31.189136",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-elasticsearch-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-elasticsearch-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 885
@@ -7083,7 +7083,7 @@
     {
       "timestamp": "2025-08-01T01:20:31.199360",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-mail-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-mail-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 886
@@ -7139,7 +7139,7 @@
     {
       "timestamp": "2025-08-01T01:20:31.269249",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-redis-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-redis-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 893
@@ -7147,7 +7147,7 @@
     {
       "timestamp": "2025-08-01T01:20:31.283498",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-db-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-db-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 894
@@ -7171,7 +7171,7 @@
     {
       "timestamp": "2025-08-01T01:20:31.314837",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-opensearch-init-1' started with status: stopped",
+      "details": "Container 'bp-onyx-shield-test-opensearch-init-1' started with status: stopped",
       "user": "system",
       "level": "info",
       "id": 897
@@ -7187,7 +7187,7 @@
     {
       "timestamp": "2025-08-01T01:20:31.336109",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-thehive-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-thehive-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 899
@@ -7731,7 +7731,7 @@
     {
       "timestamp": "2025-08-01T01:28:04.441679",
       "action": "container_started",
-      "details": "Container 'cyber-blue-portal' started with status: created",
+      "details": "Container 'bp-onyx-shield-portal' started with status: created",
       "user": "system",
       "level": "info",
       "id": 967
@@ -7923,7 +7923,7 @@
     {
       "timestamp": "2025-08-01T01:28:04.716063",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.manager-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.manager-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 991
@@ -7931,7 +7931,7 @@
     {
       "timestamp": "2025-08-01T01:28:04.726824",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cortex-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cortex-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 992
@@ -7939,7 +7939,7 @@
     {
       "timestamp": "2025-08-01T01:28:04.737672",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.indexer-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.indexer-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 993
@@ -7963,7 +7963,7 @@
     {
       "timestamp": "2025-08-01T01:28:04.770600",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cyberchef-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cyberchef-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 996
@@ -7971,7 +7971,7 @@
     {
       "timestamp": "2025-08-01T01:28:04.781462",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-misp-modules-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-misp-modules-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 997
@@ -7987,7 +7987,7 @@
     {
       "timestamp": "2025-08-01T01:28:04.803014",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-elasticsearch-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-elasticsearch-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 999
@@ -7995,7 +7995,7 @@
     {
       "timestamp": "2025-08-01T01:28:04.813740",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-mail-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-mail-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1000
@@ -8043,7 +8043,7 @@
     {
       "timestamp": "2025-08-01T01:28:04.880156",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-redis-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-redis-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1006
@@ -8051,7 +8051,7 @@
     {
       "timestamp": "2025-08-01T01:28:04.891168",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-db-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-db-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1007
@@ -8075,7 +8075,7 @@
     {
       "timestamp": "2025-08-01T01:28:04.924311",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-opensearch-init-1' started with status: stopped",
+      "details": "Container 'bp-onyx-shield-test-opensearch-init-1' started with status: stopped",
       "user": "system",
       "level": "info",
       "id": 1010
@@ -8091,7 +8091,7 @@
     {
       "timestamp": "2025-08-01T01:28:04.946615",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-thehive-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-thehive-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1012
@@ -8427,7 +8427,7 @@
     {
       "timestamp": "2025-08-01T01:31:11.585513",
       "action": "container_started",
-      "details": "Container 'cyber-blue-portal' started with status: created",
+      "details": "Container 'bp-onyx-shield-portal' started with status: created",
       "user": "system",
       "level": "info",
       "id": 1054
@@ -8619,7 +8619,7 @@
     {
       "timestamp": "2025-08-01T01:31:11.886957",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.manager-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.manager-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1078
@@ -8627,7 +8627,7 @@
     {
       "timestamp": "2025-08-01T01:31:11.898946",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cortex-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cortex-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1079
@@ -8635,7 +8635,7 @@
     {
       "timestamp": "2025-08-01T01:31:11.910927",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.indexer-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.indexer-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1080
@@ -8659,7 +8659,7 @@
     {
       "timestamp": "2025-08-01T01:31:11.947608",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cyberchef-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cyberchef-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1083
@@ -8667,7 +8667,7 @@
     {
       "timestamp": "2025-08-01T01:31:11.959929",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-misp-modules-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-misp-modules-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1084
@@ -8683,7 +8683,7 @@
     {
       "timestamp": "2025-08-01T01:31:11.986685",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-elasticsearch-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-elasticsearch-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1086
@@ -8691,7 +8691,7 @@
     {
       "timestamp": "2025-08-01T01:31:11.998733",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-mail-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-mail-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1087
@@ -8739,7 +8739,7 @@
     {
       "timestamp": "2025-08-01T01:31:12.071053",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-redis-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-redis-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1093
@@ -8747,7 +8747,7 @@
     {
       "timestamp": "2025-08-01T01:31:12.083055",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-db-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-db-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1094
@@ -8771,7 +8771,7 @@
     {
       "timestamp": "2025-08-01T01:31:12.120275",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-opensearch-init-1' started with status: stopped",
+      "details": "Container 'bp-onyx-shield-test-opensearch-init-1' started with status: stopped",
       "user": "system",
       "level": "info",
       "id": 1097
@@ -8787,7 +8787,7 @@
     {
       "timestamp": "2025-08-01T01:31:12.145717",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-thehive-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-thehive-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1099
@@ -9043,7 +9043,7 @@
     {
       "timestamp": "2025-08-01T01:33:44.104063",
       "action": "container_started",
-      "details": "Container 'cyber-blue-portal' started with status: created",
+      "details": "Container 'bp-onyx-shield-portal' started with status: created",
       "user": "system",
       "level": "info",
       "id": 1131
@@ -9235,7 +9235,7 @@
     {
       "timestamp": "2025-08-01T01:33:44.417203",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.manager-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.manager-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1155
@@ -9243,7 +9243,7 @@
     {
       "timestamp": "2025-08-01T01:33:44.430299",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cortex-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cortex-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1156
@@ -9251,7 +9251,7 @@
     {
       "timestamp": "2025-08-01T01:33:44.442823",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.indexer-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.indexer-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1157
@@ -9275,7 +9275,7 @@
     {
       "timestamp": "2025-08-01T01:33:44.483379",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cyberchef-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cyberchef-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1160
@@ -9283,7 +9283,7 @@
     {
       "timestamp": "2025-08-01T01:33:44.495939",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-misp-modules-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-misp-modules-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1161
@@ -9299,7 +9299,7 @@
     {
       "timestamp": "2025-08-01T01:33:44.521154",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-elasticsearch-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-elasticsearch-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1163
@@ -9307,7 +9307,7 @@
     {
       "timestamp": "2025-08-01T01:33:44.535302",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-mail-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-mail-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1164
@@ -9355,7 +9355,7 @@
     {
       "timestamp": "2025-08-01T01:33:44.612889",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-redis-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-redis-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1170
@@ -9363,7 +9363,7 @@
     {
       "timestamp": "2025-08-01T01:33:44.625483",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-db-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-db-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1171
@@ -9387,7 +9387,7 @@
     {
       "timestamp": "2025-08-01T01:33:44.663898",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-opensearch-init-1' started with status: stopped",
+      "details": "Container 'bp-onyx-shield-test-opensearch-init-1' started with status: stopped",
       "user": "system",
       "level": "info",
       "id": 1174
@@ -9403,7 +9403,7 @@
     {
       "timestamp": "2025-08-01T01:33:44.689424",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-thehive-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-thehive-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1176
@@ -9579,7 +9579,7 @@
     {
       "timestamp": "2025-08-01T01:35:01.737889",
       "action": "container_started",
-      "details": "Container 'cyber-blue-portal' started with status: created",
+      "details": "Container 'bp-onyx-shield-portal' started with status: created",
       "user": "system",
       "level": "info",
       "id": 1198
@@ -9771,7 +9771,7 @@
     {
       "timestamp": "2025-08-01T01:35:02.066162",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.manager-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.manager-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1222
@@ -9779,7 +9779,7 @@
     {
       "timestamp": "2025-08-01T01:35:02.079247",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cortex-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cortex-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1223
@@ -9787,7 +9787,7 @@
     {
       "timestamp": "2025-08-01T01:35:02.092634",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.indexer-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.indexer-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1224
@@ -9811,7 +9811,7 @@
     {
       "timestamp": "2025-08-01T01:35:02.132655",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cyberchef-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cyberchef-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1227
@@ -9819,7 +9819,7 @@
     {
       "timestamp": "2025-08-01T01:35:02.146339",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-misp-modules-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-misp-modules-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1228
@@ -9835,7 +9835,7 @@
     {
       "timestamp": "2025-08-01T01:35:02.173732",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-elasticsearch-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-elasticsearch-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1230
@@ -9843,7 +9843,7 @@
     {
       "timestamp": "2025-08-01T01:35:02.187816",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-mail-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-mail-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1231
@@ -9891,7 +9891,7 @@
     {
       "timestamp": "2025-08-01T01:35:02.293944",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-redis-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-redis-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1237
@@ -9899,7 +9899,7 @@
     {
       "timestamp": "2025-08-01T01:35:02.307308",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-db-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-db-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1238
@@ -9923,7 +9923,7 @@
     {
       "timestamp": "2025-08-01T01:35:02.347734",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-opensearch-init-1' started with status: stopped",
+      "details": "Container 'bp-onyx-shield-test-opensearch-init-1' started with status: stopped",
       "user": "system",
       "level": "info",
       "id": 1241
@@ -9939,7 +9939,7 @@
     {
       "timestamp": "2025-08-01T01:35:02.375204",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-thehive-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-thehive-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1243
@@ -10355,7 +10355,7 @@
     {
       "timestamp": "2025-08-01T01:40:04.396730",
       "action": "container_started",
-      "details": "Container 'cyber-blue-portal' started with status: created",
+      "details": "Container 'bp-onyx-shield-portal' started with status: created",
       "user": "system",
       "level": "info",
       "id": 1295
@@ -10547,7 +10547,7 @@
     {
       "timestamp": "2025-08-01T01:40:04.734124",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.manager-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.manager-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1319
@@ -10555,7 +10555,7 @@
     {
       "timestamp": "2025-08-01T01:40:04.749724",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cortex-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cortex-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1320
@@ -10563,7 +10563,7 @@
     {
       "timestamp": "2025-08-01T01:40:04.764235",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.indexer-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.indexer-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1321
@@ -10587,7 +10587,7 @@
     {
       "timestamp": "2025-08-01T01:40:04.808210",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cyberchef-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cyberchef-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1324
@@ -10595,7 +10595,7 @@
     {
       "timestamp": "2025-08-01T01:40:04.822517",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-misp-modules-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-misp-modules-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1325
@@ -10611,7 +10611,7 @@
     {
       "timestamp": "2025-08-01T01:40:04.850908",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-elasticsearch-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-elasticsearch-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1327
@@ -10619,7 +10619,7 @@
     {
       "timestamp": "2025-08-01T01:40:04.864830",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-mail-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-mail-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1328
@@ -10667,7 +10667,7 @@
     {
       "timestamp": "2025-08-01T01:40:04.951014",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-redis-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-redis-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1334
@@ -10675,7 +10675,7 @@
     {
       "timestamp": "2025-08-01T01:40:04.965432",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-db-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-db-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1335
@@ -10699,7 +10699,7 @@
     {
       "timestamp": "2025-08-01T01:40:05.009305",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-opensearch-init-1' started with status: stopped",
+      "details": "Container 'bp-onyx-shield-test-opensearch-init-1' started with status: stopped",
       "user": "system",
       "level": "info",
       "id": 1338
@@ -10715,7 +10715,7 @@
     {
       "timestamp": "2025-08-01T01:40:05.038438",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-thehive-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-thehive-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1340
@@ -11227,7 +11227,7 @@
     {
       "timestamp": "2025-08-01T01:44:27.141350",
       "action": "container_started",
-      "details": "Container 'cyber-blue-portal' started with status: created",
+      "details": "Container 'bp-onyx-shield-portal' started with status: created",
       "user": "system",
       "level": "info",
       "id": 1404
@@ -11419,7 +11419,7 @@
     {
       "timestamp": "2025-08-01T01:44:27.516497",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.manager-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.manager-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1428
@@ -11427,7 +11427,7 @@
     {
       "timestamp": "2025-08-01T01:44:27.531536",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cortex-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cortex-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1429
@@ -11435,7 +11435,7 @@
     {
       "timestamp": "2025-08-01T01:44:27.546661",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.indexer-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.indexer-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1430
@@ -11459,7 +11459,7 @@
     {
       "timestamp": "2025-08-01T01:44:27.593230",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cyberchef-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cyberchef-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1433
@@ -11467,7 +11467,7 @@
     {
       "timestamp": "2025-08-01T01:44:27.608601",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-misp-modules-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-misp-modules-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1434
@@ -11483,7 +11483,7 @@
     {
       "timestamp": "2025-08-01T01:44:27.639431",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-elasticsearch-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-elasticsearch-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1436
@@ -11491,7 +11491,7 @@
     {
       "timestamp": "2025-08-01T01:44:27.654747",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-mail-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-mail-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1437
@@ -11539,7 +11539,7 @@
     {
       "timestamp": "2025-08-01T01:44:27.751668",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-redis-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-redis-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1443
@@ -11547,7 +11547,7 @@
     {
       "timestamp": "2025-08-01T01:44:27.769924",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-db-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-db-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1444
@@ -11571,7 +11571,7 @@
     {
       "timestamp": "2025-08-01T01:44:27.818159",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-opensearch-init-1' started with status: stopped",
+      "details": "Container 'bp-onyx-shield-test-opensearch-init-1' started with status: stopped",
       "user": "system",
       "level": "info",
       "id": 1447
@@ -11587,7 +11587,7 @@
     {
       "timestamp": "2025-08-01T01:44:27.849062",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-thehive-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-thehive-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1449
@@ -11923,7 +11923,7 @@
     {
       "timestamp": "2025-08-01T01:51:02.697095",
       "action": "container_started",
-      "details": "Container 'cyber-blue-portal' started with status: created",
+      "details": "Container 'bp-onyx-shield-portal' started with status: created",
       "user": "system",
       "level": "info",
       "id": 1491
@@ -12115,7 +12115,7 @@
     {
       "timestamp": "2025-08-01T01:51:03.089493",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.manager-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.manager-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1515
@@ -12123,7 +12123,7 @@
     {
       "timestamp": "2025-08-01T01:51:03.108427",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cortex-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cortex-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1516
@@ -12131,7 +12131,7 @@
     {
       "timestamp": "2025-08-01T01:51:03.124703",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-wazuh.indexer-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-wazuh.indexer-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1517
@@ -12155,7 +12155,7 @@
     {
       "timestamp": "2025-08-01T01:51:03.172921",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-cyberchef-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-cyberchef-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1520
@@ -12163,7 +12163,7 @@
     {
       "timestamp": "2025-08-01T01:51:03.189034",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-misp-modules-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-misp-modules-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1521
@@ -12179,7 +12179,7 @@
     {
       "timestamp": "2025-08-01T01:51:03.229382",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-elasticsearch-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-elasticsearch-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1523
@@ -12187,7 +12187,7 @@
     {
       "timestamp": "2025-08-01T01:51:03.249098",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-mail-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-mail-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1524
@@ -12235,7 +12235,7 @@
     {
       "timestamp": "2025-08-01T01:51:03.367393",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-redis-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-redis-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1530
@@ -12243,7 +12243,7 @@
     {
       "timestamp": "2025-08-01T01:51:03.383838",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-db-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-db-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1531
@@ -12267,7 +12267,7 @@
     {
       "timestamp": "2025-08-01T01:51:03.432620",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-opensearch-init-1' started with status: stopped",
+      "details": "Container 'bp-onyx-shield-test-opensearch-init-1' started with status: stopped",
       "user": "system",
       "level": "info",
       "id": 1534
@@ -12283,7 +12283,7 @@
     {
       "timestamp": "2025-08-01T01:51:03.464894",
       "action": "container_started",
-      "details": "Container 'cyber-blue-test-thehive-1' started with status: running",
+      "details": "Container 'bp-onyx-shield-test-thehive-1' started with status: running",
       "user": "system",
       "level": "info",
       "id": 1536

@@ -209,7 +209,7 @@ Configure EVE JSON output → Parse in Shuffle
 
 ## 📝 Notes
 
-- All services on localhost network (cyber-blue Docker network)
+- All services on localhost network (bp-onyx-shield Docker network)
 - Use container names OR `{{SERVER_IP}}` for external access
 - API keys should be created fresh (defaults shown for initial setup)
 - Lab environment - SSL verification disabled

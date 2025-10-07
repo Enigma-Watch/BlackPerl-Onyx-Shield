@@ -302,21 +302,21 @@ class ContainerMonitor:
         # Map tool names to possible container names (with fallbacks)
         tool_container_map = {
             "velociraptor": ["velociraptor"],
-            "wazuh": ["wazuh", "wazuh-dashboard", "cyber-blue-test-wazuh.dashboard-1"],
-            "wazuh-dashboard": ["wazuh", "wazuh-dashboard", "cyber-blue-test-wazuh.dashboard-1"],
-            "misp": ["misp", "misp-core", "cyber-blue-test-misp-core-1"],
-            "cyberchef": ["cyber-blue-test-cyberchef-1", "cyberchef"],
-            "thehive": ["cyber-blue-test-thehive-1", "thehive"],
-            "cortex": ["cyber-blue-test-cortex-1", "cortex"],
-            "fleetdm": ["fleet-server", "cyber-blue-test-fleet-server-1"],
-            "arkime": ["arkime-test", "arkime", "cyber-blue-test-arkime-1"],
-            "caldera": ["caldera", "cyber-blue-test-caldera-1"],
-            "evebox": ["evebox", "cyber-blue-test-evebox-1"],
-            "wireshark": ["wireshark", "cyber-blue-test-wireshark-1"],
-            "mitre": ["mitre-navigator", "cyber-blue-test-mitre-navigator-1"],
-            "mitre-navigator": ["mitre-navigator", "cyber-blue-test-mitre-navigator-1"],
-            "portainer": ["portainer", "cyber-blue-test-portainer-1"],
-            "shuffle": ["shuffle-frontend", "cyber-blue-test-shuffle-frontend-1"]
+            "wazuh": ["wazuh", "wazuh-dashboard", "bp-onyx-shield-test-wazuh.dashboard-1"],
+            "wazuh-dashboard": ["wazuh", "wazuh-dashboard", "bp-onyx-shield-test-wazuh.dashboard-1"],
+            "misp": ["misp", "misp-core", "bp-onyx-shield-test-misp-core-1"],
+            "cyberchef": ["bp-onyx-shield-test-cyberchef-1", "cyberchef"],
+            "thehive": ["bp-onyx-shield-test-thehive-1", "thehive"],
+            "cortex": ["bp-onyx-shield-test-cortex-1", "cortex"],
+            "fleetdm": ["fleet-server", "bp-onyx-shield-test-fleet-server-1"],
+            "arkime": ["arkime-test", "arkime", "bp-onyx-shield-test-arkime-1"],
+            "caldera": ["caldera", "bp-onyx-shield-test-caldera-1"],
+            "evebox": ["evebox", "bp-onyx-shield-test-evebox-1"],
+            "wireshark": ["wireshark", "bp-onyx-shield-test-wireshark-1"],
+            "mitre": ["mitre-navigator", "bp-onyx-shield-test-mitre-navigator-1"],
+            "mitre-navigator": ["mitre-navigator", "bp-onyx-shield-test-mitre-navigator-1"],
+            "portainer": ["portainer", "bp-onyx-shield-test-portainer-1"],
+            "shuffle": ["shuffle-frontend", "bp-onyx-shield-test-shuffle-frontend-1"]
         }
 
         def find_container_name(possible_names):
@@ -352,21 +352,21 @@ class ContainerMonitor:
         # Map tool names to possible container names (with fallbacks)
         tool_container_map = {
             "velociraptor": ["velociraptor"],
-            "wazuh": ["wazuh", "wazuh-dashboard", "cyber-blue-test-wazuh.dashboard-1"],
-            "wazuh-dashboard": ["wazuh", "wazuh-dashboard", "cyber-blue-test-wazuh.dashboard-1"],
-            "misp": ["misp", "misp-core", "cyber-blue-test-misp-core-1"],
-            "cyberchef": ["cyber-blue-test-cyberchef-1", "cyberchef"],
-            "thehive": ["cyber-blue-test-thehive-1", "thehive"],
-            "cortex": ["cyber-blue-test-cortex-1", "cortex"],
-            "fleetdm": ["fleet-server", "cyber-blue-test-fleet-server-1"],
-            "arkime": ["arkime-test", "arkime", "cyber-blue-test-arkime-1"],
-            "caldera": ["caldera", "cyber-blue-test-caldera-1"],
-            "evebox": ["evebox", "cyber-blue-test-evebox-1"],
-            "wireshark": ["wireshark", "cyber-blue-test-wireshark-1"],
-            "mitre": ["mitre-navigator", "cyber-blue-test-mitre-navigator-1"],
-            "mitre-navigator": ["mitre-navigator", "cyber-blue-test-mitre-navigator-1"],
-            "portainer": ["portainer", "cyber-blue-test-portainer-1"],
-            "shuffle": ["shuffle-frontend", "cyber-blue-test-shuffle-frontend-1"]
+            "wazuh": ["wazuh", "wazuh-dashboard", "bp-onyx-shield-test-wazuh.dashboard-1"],
+            "wazuh-dashboard": ["wazuh", "wazuh-dashboard", "bp-onyx-shield-test-wazuh.dashboard-1"],
+            "misp": ["misp", "misp-core", "bp-onyx-shield-test-misp-core-1"],
+            "cyberchef": ["bp-onyx-shield-test-cyberchef-1", "cyberchef"],
+            "thehive": ["bp-onyx-shield-test-thehive-1", "thehive"],
+            "cortex": ["bp-onyx-shield-test-cortex-1", "cortex"],
+            "fleetdm": ["fleet-server", "bp-onyx-shield-test-fleet-server-1"],
+            "arkime": ["arkime-test", "arkime", "bp-onyx-shield-test-arkime-1"],
+            "caldera": ["caldera", "bp-onyx-shield-test-caldera-1"],
+            "evebox": ["evebox", "bp-onyx-shield-test-evebox-1"],
+            "wireshark": ["wireshark", "bp-onyx-shield-test-wireshark-1"],
+            "mitre": ["mitre-navigator", "bp-onyx-shield-test-mitre-navigator-1"],
+            "mitre-navigator": ["mitre-navigator", "bp-onyx-shield-test-mitre-navigator-1"],
+            "portainer": ["portainer", "bp-onyx-shield-test-portainer-1"],
+            "shuffle": ["shuffle-frontend", "bp-onyx-shield-test-shuffle-frontend-1"]
         }
 
         if tool_name in tool_container_map:

@@ -4985,7 +4985,7 @@
         // SHUFFLE SOAR INTEGRATIONS
         // =======================================================================
 
-        const CYBERBLUE_TOOLS = [
+        const onyxshield_TOOLS = [
             { name: 'Velociraptor', url: 'https://{{IP}}:7000', api: 'https://{{IP}}:7000/api/v1', user: 'admin', pass: 'blackperl_onyx_shield', category: 'DFIR', icon: 'fas fa-search', color: '#3b82f6' },
             { name: 'Wazuh', url: 'https://{{IP}}:7001', api: 'https://{{IP}}:55000', user: 'admin', pass: 'SecretPassword', category: 'SIEM', icon: 'fas fa-shield-alt', color: '#10b981' },
             { name: 'MISP', url: 'https://{{IP}}:7003', api: 'https://{{IP}}:7003/events', user: 'admin@admin.test', pass: 'admin', category: 'CTI', icon: 'fas fa-brain', color: '#8b5cf6' },
@@ -5010,7 +5010,7 @@
 
             // Populate tools grid
             const grid = document.getElementById('shuffleToolsGrid');
-            grid.innerHTML = CYBERBLUE_TOOLS.map(tool => {
+            grid.innerHTML = onyxshield_TOOLS.map(tool => {
                 const toolUrl = tool.url.replace('{{IP}}', serverIpDisplay);
                 const apiUrl = tool.api ? tool.api.replace('{{IP}}', serverIpDisplay) : '';
 

@@ -66,9 +66,9 @@ if ! sudo docker info >/dev/null 2>&1; then
     exit 1
 fi
 
-# Check if cyber-blue network exists
-if ! sudo docker network ls | grep -q "cyber-blue"; then
-    echo -e "${RED}❌ cyber-blue network not found${NC}"
+# Check if bp-onyx-shield network exists
+if ! sudo docker network ls | grep -q "bp-onyx-shield"; then
+    echo -e "${RED}❌ bp-onyx-shield network not found${NC}"
     echo "Please run docker-compose up first to create the network"
     exit 1
 fi
@@ -110,7 +110,7 @@ if [ "$FORCE_PREPARATION" = true ]; then
 else
     echo "   🧪 Testing if Fleet database is already prepared..."
     if timeout 10 sudo docker run --rm \
-      --network=cyber-blue \
+      --network=bp-onyx-shield \
       -e FLEET_MYSQL_ADDRESS=fleet-mysql:3306 \
       -e FLEET_MYSQL_USERNAME=fleet \
       -e FLEET_MYSQL_PASSWORD=fleetpass \
@@ -145,7 +145,7 @@ if [ "$NEED_PREPARATION" = true ]; then
     
     # Try the actual database preparation with a reasonable timeout
     if timeout 300 sudo docker run --rm \
-      --network=cyber-blue \
+      --network=bp-onyx-shield \
       -e FLEET_MYSQL_ADDRESS=fleet-mysql:3306 \
       -e FLEET_MYSQL_USERNAME=fleet \
       -e FLEET_MYSQL_PASSWORD=fleetpass \
@@ -189,7 +189,7 @@ if [ $FLEET_STATUS -eq 0 ]; then
     
     # Test Fleet database connection
     if timeout 30 sudo docker run --rm \
-      --network=cyber-blue \
+      --network=bp-onyx-shield \
       -e FLEET_MYSQL_ADDRESS=fleet-mysql:3306 \
       -e FLEET_MYSQL_USERNAME=fleet \
       -e FLEET_MYSQL_PASSWORD=fleetpass \

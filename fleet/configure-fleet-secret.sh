@@ -61,9 +61,9 @@ if [ -n "$SUDO_USER" ] && [ "$SUDO_USER" != "root" ]; then
     REAL_GROUP=$(id -gn $SUDO_USER)
     chown "$REAL_USER:$REAL_GROUP" "$SECRET_FILE"
 elif [ "$(id -u)" = "0" ]; then
-    CYBERBLUE_DIR="$(dirname "$SCRIPT_DIR")"
-    REAL_USER=$(stat -c '%U' "$CYBERBLUE_DIR" 2>/dev/null || stat -f '%Su' "$CYBERBLUE_DIR" 2>/dev/null || echo "ubuntu")
-    REAL_GROUP=$(stat -c '%G' "$CYBERBLUE_DIR" 2>/dev/null || stat -f '%Sg' "$CYBERBLUE_DIR" 2>/dev/null || echo "$REAL_USER")
+    onyxshield_DIR="$(dirname "$SCRIPT_DIR")"
+    REAL_USER=$(stat -c '%U' "$onyxshield_DIR" 2>/dev/null || stat -f '%Su' "$onyxshield_DIR" 2>/dev/null || echo "ubuntu")
+    REAL_GROUP=$(stat -c '%G' "$onyxshield_DIR" 2>/dev/null || stat -f '%Sg' "$onyxshield_DIR" 2>/dev/null || echo "$REAL_USER")
     chown "$REAL_USER:$REAL_GROUP" "$SECRET_FILE"
 fi
 

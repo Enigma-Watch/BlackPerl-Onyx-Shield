@@ -87,7 +87,7 @@ df -h
 **Diagnosis:**
 ```bash
 # Check portal container
-docker logs cyber-blue-portal
+docker logs bp-onyx-shield-portal
 
 # Test local connectivity
 curl -f http://localhost:5500
@@ -295,7 +295,7 @@ docker exec wazuh.manager ping wazuh.indexer
 
 # Check Docker networks
 docker network ls
-docker network inspect cyber-blue
+docker network inspect bp-onyx-shield
 ```
 
 ### Storage Diagnostics
@@ -469,7 +469,7 @@ docker-compose logs | grep -i error
    sudo ufw deny in on [external-interface]
    
    # Isolate containers
-   docker network disconnect cyber-blue [container-name]
+   docker network disconnect bp-onyx-shield [container-name]
    ```
 
 2. **Evidence Preservation:**
@@ -492,8 +492,8 @@ docker-compose logs | grep -i error
 ## 📞 **Getting Additional Help**
 
 ### Community Support
-- **GitHub Issues**: [Report bugs and get help](https://github.com/m7siri/cyber-blue-project/issues)
-- **Discussions**: [Community Q&A](https://github.com/m7siri/cyber-blue-project/discussions)
+- **GitHub Issues**: [Report bugs and get help](https://github.com/m7siri/bp-onyx-shield-project/issues)
+- **Discussions**: [Community Q&A](https://github.com/m7siri/bp-onyx-shield-project/discussions)
 - **Security Issues**: Follow SECURITY.md for vulnerability reporting
 
 ### Professional Support

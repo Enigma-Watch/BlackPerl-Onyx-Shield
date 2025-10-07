@@ -61,7 +61,7 @@ fi
 echo ""
 echo "🎯 Checking ALL BlackPerl_Onyx_Shield SOC Services..."
 all_services=(
-    "arkime" "caldera" "cortex" "cyber-blue-portal" "cyberchef" 
+    "arkime" "caldera" "cortex" "bp-onyx-shield-portal" "cyberchef" 
     "elasticsearch" "evebox" "fleet-mysql" "fleet-redis" "fleet-server"
     "misp-core" "misp-db" "misp-mail" "misp-modules" "misp-redis"
     "mitre-navigator" "openvas" "os01" "portainer" "shuffle-backend"

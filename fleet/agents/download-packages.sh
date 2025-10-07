@@ -59,9 +59,9 @@ if [ -n "$SUDO_USER" ] && [ "$SUDO_USER" != "root" ]; then
     chown -R "$REAL_USER:$REAL_GROUP" "$SCRIPT_DIR"
     echo "    ✓ Ownership set to $REAL_USER:$REAL_GROUP"
 elif [ "$(id -u)" = "0" ]; then
-    CYBERBLUE_DIR="$(dirname "$(dirname "$(dirname "$SCRIPT_DIR")")")"
-    REAL_USER=$(stat -c '%U' "$CYBERBLUE_DIR" 2>/dev/null || stat -f '%Su' "$CYBERBLUE_DIR" 2>/dev/null || echo "ubuntu")
-    REAL_GROUP=$(stat -c '%G' "$CYBERBLUE_DIR" 2>/dev/null || stat -f '%Sg' "$CYBERBLUE_DIR" 2>/dev/null || echo "$REAL_USER")
+    onyxshield_DIR="$(dirname "$(dirname "$(dirname "$SCRIPT_DIR")")")"
+    REAL_USER=$(stat -c '%U' "$onyxshield_DIR" 2>/dev/null || stat -f '%Su' "$onyxshield_DIR" 2>/dev/null || echo "ubuntu")
+    REAL_GROUP=$(stat -c '%G' "$onyxshield_DIR" 2>/dev/null || stat -f '%Sg' "$onyxshield_DIR" 2>/dev/null || echo "$REAL_USER")
     echo "[*] Fixing ownership for: $REAL_USER (detected)"
     chown -R "$REAL_USER:$REAL_GROUP" "$SCRIPT_DIR"
     echo "    ✓ Ownership set to $REAL_USER:$REAL_GROUP"
