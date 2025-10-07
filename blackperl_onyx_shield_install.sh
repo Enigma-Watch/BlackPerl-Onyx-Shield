@@ -106,7 +106,7 @@ echo -e "${BLUE}║                                                             
 echo -e "${BLUE}╚════════════════════════════════════════════════════════════════════════════╝${NC}"
 echo ""
 echo -e "${BLUE}║                                                                            ║${NC}"
-echo -e "${BLUE}║                     ${MAGENTA}🔷 SOC PLATFORM INSTALLER 🔷${BL            ║${NC}"
+echo -e "${BLUE}║                     ${MAGENTA}🔷 SOC PLATFORM INSTALLER 🔷${BLUE}         ║${NC}"
 echo -e "${BLUE}║                                                                            ║${NC}"
 echo -e "${BLUE}║              ${GREEN}✅ Fully Automated - Live Progress Monitoring${BLUE}  ║${NC}"
 echo -e "${BLUE}║              ${GREEN}✅ Zero User Intervention Required${BLUE}             ║${NC}"
