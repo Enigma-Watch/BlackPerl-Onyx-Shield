@@ -324,7 +324,7 @@ sudo docker logs bp-onyx-shield-portal
 curl -k https://localhost:5443/health
 
 # Restart portal
-sudo docker-compose restart bp-onyx-shield-portal
+sudo docker-compose restart portal
 ```
 
 **Fleet database issues:**
